@@ -1,0 +1,228 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+}
+header{
+	align-items: center;
+	display: flex;
+	height: 50px;
+	justify-content: flex-end;
+}
+#btn-menu{
+	display: none;
+}
+header label{
+	cursor: pointer;
+	display: none;
+	font-style: 30px;
+}
+img.logo {
+    display: flex;
+    height: 80px;
+    margin-left: -73rem;
+    margin-top: 2rem;
+    position: fixed;
+    z-index: 1;
+}
+nav.menu {
+    margin-top: 2rem;
+    padding: 2rem;
+    z-index: 1;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+.menu a{
+    color: #fff;
+	display: block;
+    padding: 0.4rem 1.2rem;
+    text-decoration: none;
+}
+.menu a:hover{
+	background: rgba(0,0,0,0.3);
+}
+.download{
+	background: #38c5c5;
+}
+
+/* ------------BANNER1----------- */
+
+.banner1{
+	margin-top: 0;
+	position: relative;
+}
+.banner1 img{
+	margin-top: -50px;
+    width: 100%;
+    height: 708px;
+}
+.banner1-text {
+    position: absolute;
+    font-size: 2em;
+    left: 60%;
+    top: 23%;
+    right: 5%;
+    text-align: right;
+}
+.banner1-text h2 {
+    font-weight: lighter;
+}
+.banner1-text-p{
+    font-size: 25px;
+    margin: 2rem 0;
+    line-height: 1.5;
+}
+/* -------------BANNER2---------- */
+.banner2{
+	margin-top: 0;
+	position: relative;
+}
+.banner2 img{
+	margin-top: -50px;
+	width: 100%;
+	height: 660px;
+}
+.banner2-text {
+    position: absolute;
+    font-size: 2em;
+    left: 12%;
+    top: 5%;
+    text-align: left;
+    right: 47%;
+}
+.banner2-text p {
+    font-size: 24px;
+    margin: 1.5rem 0;
+}
+p.banner2-text-p.icon-ok-circle {
+    line-height: 1.6;
+    margin-top: 2rem;
+}
+img.banner2-img-grupo {
+    margin: 0;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 125%;
+    top: 15%;
+}
+/* ------------BANNER 3 - FORMULARIO---------- */
+
+.banner-form{
+	margin-top: 0;
+	position: relative;	
+}
+.form-banner4{
+	width: 100%;
+	height: 665px;
+}
+.banner4-text{
+	position: absolute;
+    top: 6%;
+    left: 20%;
+}
+h2.form-h2, p.form-p{
+	text-align: left;
+    color: gray;
+}
+h2.form-h2 {
+    font-size: 2.5em;
+}
+p.form-p {
+    font-size: 1.6em;
+    line-height: 2;
+}
+.form-text{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.datos, .email-enterprise, .form-textarea{
+    width: 100%;
+    margin: 0.6rem;
+}
+input.form-name, input.form-last-name, input.form-email, input.form-enterprise, textarea.text-mensaje{
+	border: 1px solid gray;
+	font-family: "Lato";
+	font-size: 1em;
+	padding: 1rem;
+}
+.form-btn{
+	margin: 1rem;
+}
+input.form-name {
+    margin-right: 10px;
+    width: 44%;
+}
+input.form-last-name {
+    width: 52%;
+}
+input.form-email {
+    margin-right: 10px;
+    width: 66%;
+}
+input.form-enterprise {
+    width: 30%;
+}
+textarea.text-mensaje {
+    margin-bottom: 2rem;
+    resize: none;
+    overflow: hidden;
+
+}
+span.icon-mail {
+    border-radius: 100%;
+    border: 1px solid gray;
+    color: gray;
+    font-size: 1.2em;
+    padding: 6px 5px 9px 5px;
+}
+.span-mail{
+	color: #06d5ef;
+    margin: 0.5rem;
+}
+button.text-btn-envio {
+    border: 2px solid #3e7cb1;
+    background: #3e7cb1;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    float: right;
+    padding: 0.5rem 4rem;
+}
+
+/* --------------------FOOTER-------------------- */
+
+footer{
+    background: #36bca9;
+    margin-top: -3px;
+    width: 100%;
+    height: 3rem;
+    position: relative;
+}
+.footer-text{
+	position: absolute;
+    top: 30%;
+    left: 3%;
+}
+.footer-icon {
+    position: absolute;
+    font-size: 1.3em;
+    top: 20%;
+    left: 89%;
+}
+a.icon-facebook, a.icon-linkedin {
+    color: #fff;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+a.icon-facebook:hover, a.icon-linkedin:hover{
+	color: rgba(40, 70, 95, 0.95);
+}

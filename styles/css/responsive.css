@@ -1,0 +1,57 @@
+@media (max-width: 768px){
+	header label{
+    	display: block;
+	    font-size: 2em;
+	    margin: 1rem;
+	    z-index: 1;
+	}
+	.menu{
+		position: absolute;
+		top: 50px;
+		left: 0;
+		width: 100%;
+		transform: translateX(-100%);
+	}
+	.menu ul{
+		display: block;
+		background: #555;
+	}
+	.menu ul li:hover ul{
+		display: none;
+	}
+	#btn-menu:checked ~ .menu{
+	    margin: 0;
+	    padding: 0;
+		transform: translateX(0%);
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
+	.banner1 img {
+	    height: 330px;
+	}
+	.text-banner1 {
+	    top: 4%;
+	    left: 4%;
+	}
+	h1, h3, p {
+	    font-size: 1em;
+	}
+	.icon-option {
+	    top: 76%;
+	    left: 21%;
+	    font-size: 0.7em;
+	}
+	span.icon-down-open-big {
+	    font-size: 1em;
+	    border: 4px solid;
+	}
+	/* ----------BANNER SECTION 2--------------- */
+	img.phone {
+    	display: none;
+	}
+	h2.b2-text-h2 {
+	    font-size: 1.3em;
+	    top: 6%;
+	}
+}

@@ -1,0 +1,366 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+}
+
+/*----------------MENU---------------------*/
+
+header{
+	align-items: center;
+	display: flex;
+	height: 50px;
+	justify-content: flex-end;
+}
+#btn-menu{
+	display: none;
+}
+header label{
+	cursor: pointer;
+	display: none;
+	font-style: 30px;
+}
+img.logo {
+    display: flex;
+    height: 80px;
+    margin-left: -73rem;
+    margin-top: 2rem;
+    position: fixed;
+    z-index: 1;
+}
+nav.menu {
+    margin-top: 2rem;
+    padding: 2rem;
+    z-index: 1;
+}
+.menu ul{
+	display: flex;
+	list-style: none;
+}
+.menu a{
+    color: #fff;
+	display: block;
+    padding: 0.4rem 1.2rem;
+    text-decoration: none;
+}
+.menu a:hover{
+	background: rgba(0,0,0,0.3);
+}
+.download{
+	background: #38c5c5;
+}
+
+/* ---------------BANNER SECTION 1 ---------------- */
+
+section{
+	width: 100%;
+}
+.banner1{
+	margin-top: 0;
+	position: relative;
+}
+.banner1 img{
+	margin-top: -50px;
+	width: 100%;
+	height: 660px;
+}
+.text-banner1{
+	position: absolute;
+    top: 21%;
+    left: 13%;
+}
+h3, p{
+	font-size: 2em;
+}
+h1 {
+	font-size: 3em;
+    line-height: 1.4;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.b1-text-h3{
+	font-weight: lighter;
+}
+.icon-option{
+	position: absolute;
+    top: 78%;
+    left: 14%;
+}
+.icon-apple, .icon-android {
+    border-radius: 50%;
+	color: #fff;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 10px;
+}
+.icon-apple:hover, .icon-android:hover{
+	color: #38c5c5;
+}
+.icon-down-open-big {
+    background: #2c77ad;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    font-size: 1.5em;
+    left: 50%;
+    padding: 0.4rem;
+    position: absolute;
+    top: 94.5%;
+    z-index: 1;
+}
+
+/* ----------BANNER SECTION 2--------------- */
+
+.banner2{
+	margin-top: 0;
+	position: relative;
+}
+.banner-fondo{
+	width: 100%;
+	height: 660px;
+}
+.phone{
+    top: 6%;
+    left: 36%;
+    position: absolute;
+    height: 620px;
+    width: 400px;
+}
+.logo-apple, .logo-escala, .logo-copa, .parrafo-apple, .parrafo-escala, .parrafo-copa, .b2-text-h2, .b2-text-h3{
+    position: absolute;
+    z-index: 1;
+}
+.logo-apple{
+	top: 45%;
+    left: 10%;
+}
+.parrafo-apple{
+	top: 65%;
+    left: 10%;
+    font-size: 27px;
+}
+.logo-escala{
+	top: 13%;
+    left: 75%;
+}
+.parrafo-escala{
+	top: 32%;
+    left: 75%;
+    font-size: 27px;
+}
+.logo-copa{
+	top: 58%;
+    left: 75%;
+}
+.parrafo-copa{
+	top: 75%;
+    left: 75%;
+    font-size: 27px;
+}
+.b2-text-h2{
+	font-size: 2.7em;
+    font-weight: lighter;
+    top: 20%;
+    left: 10%;
+}
+.b2-text-h3{
+	font-size: 3em;
+	top: 28%;
+    left: 10%;
+}
+
+/* -------------BANNER 3-------------- */
+
+.banner3{
+	margin-top: 0;
+	position: relative;
+}
+.banner-img3{
+	width: 100%;
+}
+.text-banner3{
+    top: 20%;
+    left: 11%;
+    position: absolute;
+}
+.b3-text-h2{
+	font-size: 3em;
+    letter-spacing: 3px;
+}
+.b3-text-p{
+    font-size: 14px;
+    margin: 2rem 0;
+}
+.b3-btn{
+    background: transparent;
+    border: 4px solid #39739c;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 0.7rem 5rem;
+}
+.b3-btn:hover{
+	background: rgba(29, 36, 41, 0.3);
+    border: 4px solid rgba(44, 53, 60, 0.12);
+}
+
+/* ------------BANNER 4 - FORMULARIO---------- */
+
+.banner-form{
+	margin-top: 0;
+	position: relative;	
+}
+.form-banner4{
+	width: 100%;
+	height: 665px;
+}
+.banner4-text{
+    position: absolute;
+    top: 6%;
+    left: 25%;
+}
+h2.form-h2, p.form-p{
+	text-align: center;
+    color: gray;
+}
+h2.form-h2 {
+    font-size: 2.5em;
+}
+p.form-p {
+    font-size: 1.6em;
+    line-height: 2;
+}
+.form-text{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.datos, .email-enterprise, .form-textarea{
+    width: 100%;
+    margin: 0.6rem;
+}
+input.form-name, input.form-last-name, input.form-email, input.form-enterprise, textarea.text-mensaje{
+	border: 1px solid gray;
+	font-family: "Lato";
+	font-size: 1em;
+	padding: 1rem;
+}
+.form-btn{
+	margin: 1rem;
+}
+input.form-name {
+    margin-right: 10px;
+    width: 44%;
+}
+input.form-last-name {
+    width: 52%;
+}
+input.form-email {
+    margin-right: 10px;
+    width: 66%;
+}
+input.form-enterprise {
+    width: 30%;
+}
+textarea.text-mensaje {
+    margin-bottom: 2rem;
+    resize: none;
+    overflow: hidden;
+
+}
+span.icon-mail {
+    border-radius: 100%;
+    border: 1px solid gray;
+    color: gray;
+    font-size: 1.2em;
+    padding: 6px 5px 9px 5px;
+}
+.span-mail{
+	color: #06d5ef;
+    margin: 0.5rem;
+}
+button.text-btn-envio {
+    border: 2px solid #3e7cb1;
+    background: #3e7cb1;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    float: right;
+    padding: 0.5rem 4rem;
+}
+
+/* -------------------- BANNER5------------- */
+
+.banner5{
+	margin-top: 0;
+	position: relative;	
+}
+.banner5-img{
+	width: 100%;
+}
+.banner5-content{
+	position: absolute;
+	top: 40%;
+    left: 17%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.banner5-img-phone{
+    height: 630px;
+    width: 100%;
+}
+.banner5-text{
+	position: absolute;
+    top: 45%;
+    transform: translateX(200%) translateY(-27%);
+    text-align: right;
+}
+.banner5-text-h2{
+    font-size: 3em;
+    line-height: 1.4;
+    font-weight: lighter;
+}
+button.banner5-btn {
+    background: #fff;
+    border: none;
+    border-radius: 5px;
+    color: gray;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 3rem;
+    padding: 0.8rem 4rem;
+}
+button.banner5-btn:hover{
+	background: rgb(54, 188, 169);
+	color: #fff;
+}
+/* --------------------FOOTER-------------------- */
+footer{
+    background: #36bca9;
+    margin-top: -3px;
+    width: 100%;
+    height: 3rem;
+    position: relative;
+}
+.footer-text{
+	position: absolute;
+    top: 30%;
+    left: 3%;
+}
+.footer-icon {
+    position: absolute;
+    font-size: 1.3em;
+    top: 20%;
+    left: 89%;
+}
+a.icon-facebook, a.icon-linkedin {
+    color: #fff;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+a.icon-facebook:hover, a.icon-linkedin:hover{
+	color: rgba(40, 70, 95, 0.95);
+}
