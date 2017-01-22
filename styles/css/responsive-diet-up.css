@@ -24,4 +24,92 @@
 	    padding: 0;
 		transform: translateX(0%);
 	}
+/* ---------BANNER 1..---------*/
+	.banner1 img {
+	    height: 285px;
+	}
+	.banner1-text {
+	    left: 0%;
+	    right: 0%;
+	    top: 10%;
+	}
+	.banner1-text h2 {
+	    font-size: 1.7em;
+	    text-align: center;
+	}
+	.banner1-text-p {
+	    font-size: 1em;
+	    margin: 2rem;
+	    line-height: normal;
+	}
+/* ---------BANNER 2 --------- */
+	.banner2 img {
+	    margin-top: -3px;
+	    height: 550px;
+	}
+	.banner2-text {
+	    left: 9%;
+	    right: 15%;
+	}
+	.banner2-text h2 {
+	    font-size: 1.5em;
+	    text-align: center;
+	}
+	.banner2-text p {
+	    font-size: 1em;
+	}
+	img.banner2-img-grupo {
+	    display: none;
+	}
+/* --------------FORM----------------- */
+	.banner-form {
+	    height: 710px;
+	}
+	.banner4-text {
+	    top: 4%;
+	    left: 3%;
+	    margin: 1rem 2rem;
+	}
+	h2.form-h2 {
+	    font-size: 1.5em;
+	    text-align: center;
+	}
+	p.form-p {
+	    font-size: 1.3em;
+	    line-height: normal;
+	    margin-top: 4%;
+	}
+	input.form-name {
+	    display: block;
+	    width: 36%;
+	}
+	.form-text {
+	    top: 25%;
+	    left: 1%;
+	}
+	.datos, .email-enterprise, .form-textarea {
+		margin: 0;
+	}
+	input.form-name, input.form-last-name, input.form-email, input.form-enterprise, textarea.text-mensaje{
+	    display: block;
+	    width: 98%;
+	    margin: 1rem 0;
+	}
+	button.text-btn-envio {
+	    float: left;
+	    margin: 1rem 3rem;
+	    font-size: small;
+	}
+	/* ------------FOOTER------------------------------ */
+	footer {
+	    margin-top: 3rem;
+	}
+	.footer-icon{
+	    font-size: 1em;
+	    left: 60%;
+	    top: 23%;
+	}  
+	.footer-text {
+    	font-size: 0.8em;
+	}
 }

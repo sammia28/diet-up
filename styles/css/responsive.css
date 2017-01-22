@@ -54,4 +54,120 @@
 	    font-size: 1.3em;
 	    top: 6%;
 	}
+	.b2-text-h3 {
+	    font-size: 1.5em;
+	    top: 11%;
+	}
+	.logo-apple {
+	    top: 20%;
+	    left: 6%;
+	}
+	.parrafo-apple {
+	    top: 24%;
+	    left: 47%;
+	    font-size: 1.2em;
+	    text-align: center;
+	}
+	.logo-escala {
+	    top: 42%;
+	    left: 58%;
+	}
+	.parrafo-escala {
+	    top: 45%;
+	    left: 8%;
+	    font-size: 1.2em;
+	    text-align: center;
+	}
+	.logo-copa {
+	    top: 64%;
+	    left: 6%;
+	}
+	.parrafo-copa {
+	    top: 68%;
+	    left: 56%;
+	    font-size: 1.2em;
+	    text-align: center;
+	}
+	/* ----------BANNER SECTION 3--------------- */
+	.banner-img3 {
+	    width: 100%;
+	    height: 200px;
+	}
+
+	.text-banner3 {
+	    top: 12%;
+	}
+	.b3-text-h2 {
+	    font-size: 2em;
+	}
+	.b3-text-p {
+	    font-size: 1em;
+	    margin: 5px;
+	}
+	button.b3-btn {
+	    padding: 0.1rem 3rem;
+	    border: 3px solid #39739c;
+	    float: right;
+	    margin: 0.5rem 1rem;
+	    font-size: 1em;
+	    background: #39739c;
+	}
+/* ---------------BANNER 4--------------------- */
+	.banner4-text {
+	    top: 4%;
+	    left: 3%;
+	}
+	h2.form-h2 {
+	    font-size: 1.5em;
+	}
+	p.form-p {
+	    font-size: 1.3em;
+	    line-height: normal;
+	    margin-top: 4%;
+	}
+	input.form-name {
+	    display: block;
+	    width: 36%;
+	}
+	.form-text {
+	    top: 25%;
+	    left: 1%;
+	}
+	.datos, .email-enterprise, .form-textarea {
+		margin: 0;
+	}
+	input.form-name, input.form-last-name, input.form-email, input.form-enterprise, textarea.text-mensaje{
+	    display: block;
+	    width: 98%;
+	    margin: 1rem 0;
+	}
+	button.text-btn-envio {
+	    float: left;
+	    margin: 1rem 3rem;
+	    font-size: small;
+	}
+/* -------------------BANNER 5--------------------- */
+	.banner5-img {
+	    height: 400px;
+	    margin: 4rem 0 0;
+	}
+	.banner5-content {
+	    top: 18%;
+	    left: 13%;
+	}
+	.banner5-img-phone {
+	    display: none;
+	}
+	.banner5-text {
+	    position: initial;
+	    text-align: left;
+	}
+/* ------------FOOTER------------------------------ */
+	.footer-icon{
+	    font-size: 1em;
+	    left: 70%;
+	    top: 23%;
+	}    
 }
+
+

@@ -233,11 +233,10 @@ p.form-p {
     font-size: 1.6em;
     line-height: 2;
 }
-.form-text{
-	position: absolute;
-	top: 60%;
-	left: 50%;
-	transform: translateX(-50%) translateY(-50%);
+.form-text {
+    position: absolute;
+    top: 30%;
+    left: 20%;
 }
 .datos, .email-enterprise, .form-textarea{
     width: 100%;
@@ -303,20 +302,20 @@ button.text-btn-envio {
 	width: 100%;
 }
 .banner5-content{
-	position: absolute;
-	top: 40%;
-    left: 17%;
-	transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: -20%;
+    left: 0%;
 }
 .banner5-img-phone{
     height: 630px;
     width: 100%;
 }
-.banner5-text{
-	position: absolute;
-    top: 45%;
-    transform: translateX(200%) translateY(-27%);
+.banner5-text {
+    position: absolute;
+    top: 30%;
     text-align: right;
+    left: 170%;
+    width: 100%;
 }
 .banner5-text-h2{
     font-size: 3em;
