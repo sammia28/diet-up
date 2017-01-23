@@ -46,7 +46,9 @@
 	    font-size: 1em;
 	    border: 4px solid;
 	}
-	/* ----------BANNER SECTION 2--------------- */
+
+/* ----------BANNER SECTION 2--------------- */
+
 	img.phone {
     	display: none;
 	}
@@ -88,7 +90,9 @@
 	    font-size: 1.2em;
 	    text-align: center;
 	}
-	/* ----------BANNER SECTION 3--------------- */
+
+/* ----------BANNER SECTION 3--------------- */
+
 	.banner-img3 {
 	    width: 100%;
 	    height: 200px;
@@ -112,41 +116,53 @@
 	    font-size: 1em;
 	    background: #39739c;
 	}
+
 /* ---------------BANNER 4--------------------- */
+
+	.banner-form {
+	    position: initial;
+	}
 	.banner4-text {
-	    top: 4%;
-	    left: 3%;
+	    position: inherit;
+	    margin: 2rem;
 	}
 	h2.form-h2 {
-	    font-size: 1.5em;
+	    font-size: 1.6em;
 	}
 	p.form-p {
-	    font-size: 1.3em;
-	    line-height: normal;
-	    margin-top: 4%;
+	    font-size: 1.5em;
+	    line-height: 1.3;
+	    margin: 1rem 0;
 	}
-	input.form-name {
-	    display: block;
-	    width: 36%;
+	.form-banner4 {
+	    display: none;
 	}
 	.form-text {
-	    top: 25%;
-	    left: 1%;
+	    position: inherit;
+	    margin: 0 3rem;
 	}
 	.datos, .email-enterprise, .form-textarea {
-		margin: 0;
+	    margin: 0; 
 	}
 	input.form-name, input.form-last-name, input.form-email, input.form-enterprise, textarea.text-mensaje{
 	    display: block;
-	    width: 98%;
+	    width: 100%;
 	    margin: 1rem 0;
 	}
-	button.text-btn-envio {
-	    float: left;
-	    margin: 1rem 3rem;
-	    font-size: small;
+	.form-btn {
+	    margin: 2rem 0;
 	}
+	button.text-btn-envio {
+	    float: right;
+	    margin: 0rem;
+	}
+	button.text-btn-envio {
+	    float: none;
+	    margin: 3rem 0 0 1rem;
+	}
+
 /* -------------------BANNER 5--------------------- */
+
 	.banner5-img {
 	    height: 400px;
 	    margin: 4rem 0 0;
@@ -162,7 +178,9 @@
 	    position: initial;
 	    text-align: left;
 	}
+
 /* ------------FOOTER------------------------------ */
+
 	.footer-icon{
 	    font-size: 1em;
 	    left: 70%;
@@ -170,4 +188,117 @@
 	}    
 }
 
+
+
+/* -----Tablets en horizonal y escritorios normales------ */
+
+
+@media (min-width: 768px) and (max-width: 1199px) { 
+	.banner1 img{
+		height: 450px
+	}
+	.text-banner1 {
+	    top: 2%;
+	}
+	.icon-option {
+	    top: 85%;
+	    left: 70%;
+	}
+
+/* ---------------------BANNER 2--------------------- */
+
+	img.phone {
+	    display: none;
+	}
+	.b2-text-h2 {
+	    top: 10%;
+	}
+	.b2-text-h3 {
+	    top: 20%;
+	}
+	.logo-escala {
+	    left: 65%;
+	}
+	.parrafo-escala {
+	    left: 65%;
+	}
+	.logo-copa {
+	    left: 65%;
+	}
+	.parrafo-copa {
+	    left: 65%;
+	}
+
+/* ---------------------BANNER 3--------------------- */
+
+	.b3-text-h2 {
+	    font-size: 1.7em;
+	}
+	.b3-text-p {
+	    margin: 1rem 0;
+	}
+	.text-banner3 {
+	    top: 8%;
+	}
+
+/* ---------------------FORM--------------------- */
+
+	.banner-form {
+	    position: initial;
+	}
+	.banner4-text {
+	    position: inherit;
+	    margin: 3rem;
+	}
+	.form-banner4 {
+	    display: none;
+	}
+	.form-text {
+	    position: inherit;
+	    margin: 5rem;
+	}
+	.datos, .email-enterprise, .form-textarea {
+	    margin: 0; 
+	}
+	input.form-name, input.form-last-name, input.form-email, input.form-enterprise, textarea.text-mensaje{
+	    display: block;
+	    width: 100%;
+	    margin: 1rem 0;
+	}
+	button.text-btn-envio {
+	    float: right;
+	    margin: 0rem;
+	}
+	.form-btn {
+	    margin: 3rem;
+	}
+
+/* --------------------BANNER 5-------------*/
+
+	.banner5-img {
+	    height: 500px;
+	}
+	.banner5-content {
+	    top: 4%;
+	}
+	.banner5-img-phone {
+	    width: 83%;
+	    height: 481px;
+	}
+	.banner5-text {
+	    left: 70%;
+	    top: 15%;
+	    width: 76%;
+	}
+	.banner5-text-h2 {
+	    font-size: 2em;
+	    margin: 1rem;
+	}
+
+/*-------------------FOOTER---------------------- */
+
+.footer-icon {
+	    left: 85%;
+	}
+}
 
