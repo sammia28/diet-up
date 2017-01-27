@@ -307,6 +307,11 @@ button.text-btn-envio {
 .banner5-img{
 	width: 100%;
 }
+.icon-zanahoria{
+    position: absolute;
+    top: -6%;
+    left:50%;
+}
 .banner5-content{
     position: absolute;
     top: -14%;
