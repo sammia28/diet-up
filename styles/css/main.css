@@ -25,16 +25,16 @@ header label{
 	font-style: 30px;
 }
 img.logo {
-    display: flex;
-    height: 80px;
-    margin-left: -73rem;
-    margin-top: 2rem;
+    height: 60px;
+    margin-left: -70rem;
+    margin-top: 1.5rem;
     position: fixed;
     z-index: 1;
 }
 nav.menu {
     margin-top: 2rem;
     padding: 2rem;
+    position: fixed;
     z-index: 1;
 }
 .menu ul{
@@ -73,8 +73,8 @@ section{
     top: 21%;
     left: 13%;
 }
-h3, p{
-	font-size: 2em;
+.text-banner1 p{
+    font-size: 1.5em;
 }
 h1 {
 	font-size: 3em;
@@ -84,11 +84,12 @@ h1 {
 }
 .b1-text-h3{
 	font-weight: lighter;
+    font-size: 1.5em;
 }
-.icon-option{
-	position: absolute;
-    top: 78%;
-    left: 14%;
+.icon-option {
+    position: absolute;
+    top: 74%;
+    left: 13%;
 }
 .icon-apple, .icon-android {
     border-radius: 50%;
@@ -186,12 +187,17 @@ h1 {
     left: 11%;
     position: absolute;
 }
-.b3-text-h2{
-	font-size: 3em;
+.text-banner3 h3 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+.text-banner3 h2 {
+    font-size: 2.5em;
     letter-spacing: 3px;
+    font-weight: 900;
 }
 .b3-text-p{
-    font-size: 14px;
+    font-size: 1.5em;
     margin: 2rem 0;
 }
 .b3-btn{
@@ -312,15 +318,18 @@ button.text-btn-envio {
 }
 .banner5-text {
     position: absolute;
-    top: 30%;
+    top: 35%;
     text-align: right;
-    left: 170%;
+    left: 150%;
     width: 100%;
 }
 .banner5-text-h2{
     font-size: 3em;
     line-height: 1.4;
     font-weight: lighter;
+}
+p.banner5-text-p {
+    font-size: 2em;
 }
 button.banner5-btn {
     background: #fff;
@@ -345,7 +354,9 @@ footer{
     position: relative;
 }
 .footer-text{
-	position: absolute;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
     top: 30%;
     left: 3%;
 }
