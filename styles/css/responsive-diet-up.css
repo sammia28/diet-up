@@ -1,32 +1,7 @@
 @media (max-width: 768px){
-	header label{
-    	display: block;
-	    font-size: 2em;
-	    margin: 1rem;
-	    z-index: 1;
-	}
-	.menu{
-		position: absolute;
-		top: 50px;
-		left: 0;
-		width: 100%;
-		transform: translateX(-100%);
-	}
-	.menu ul{
-		display: block;
-		background: #555;
-	}
-	.menu ul li:hover ul{
-		display: none;
-	}
-	#btn-menu:checked ~ .menu{
-	    margin: 0;
-	    padding: 0;
-		transform: translateX(0%);
-	}
 /* ---------BANNER 1..---------*/
-	.banner1 img {
-	    height: 285px;
+	.banner1-img{
+		height: 200px;
 	}
 	.banner1-text {
 	    left: 0%;
@@ -39,23 +14,41 @@
 	}
 	.banner1-text-p {
 	    font-size: 1em;
-	    margin: 2rem;
+	    margin: 1rem;
 	    line-height: normal;
+	    text-align: center;
+	}
+	img.logo {
+	    width: 15%;
+	    left: 2%;
 	}
 /* ---------BANNER 2 --------- */
 	.banner2 img {
 	    margin-top: -3px;
-	    height: 550px;
 	}
 	.banner2-text {
-	    left: 9%;
-	    right: 15%;
+	    left: 10%;
+	    right: 9%;
+	    top: 10%;
 	}
 	.banner2-text h2 {
 	    font-size: 1.5em;
 	    text-align: center;
 	}
 	.banner2-text p {
+	    font-size: 1em;
+	}
+	.icon-check {
+	    position: absolute;
+	    left: 3%;
+	    top: 40%;
+	}
+	.banner2-content-text {
+	    left: 26%;
+	    right: 6%;
+	    top: 40%;
+	}
+	.banner2-content-text p {
 	    font-size: 1em;
 	}
 	img.banner2-img-grupo {
@@ -120,10 +113,7 @@
 	}
 }
 
-
 /* -----Tablets en horizonal y escritorios normales------ */
-
-
 @media (min-width: 960px) and (max-width: 1199px) { 
 	
 /* --------------BANNER 1---------------- */
