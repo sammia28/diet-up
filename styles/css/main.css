@@ -309,12 +309,8 @@ button.text-btn-envio {
 }
 .banner5-content{
     position: absolute;
-    top: -20%;
+    top: -14%;
     left: 0%;
-}
-.banner5-img-phone{
-    height: 630px;
-    width: 100%;
 }
 .banner5-text {
     position: absolute;
