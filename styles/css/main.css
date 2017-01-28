@@ -13,7 +13,14 @@ body{
 .menu_bar {
     display:none;
 }
- 
+.header-logo {
+    position: absolute;
+    left: 4%;
+}
+.logo-diet-up {
+    width: 33%;
+    margin: 1rem 2rem;
+}
 header {
     width: 100%;
     z-index: 1 !important;
