@@ -1,8 +1,17 @@
-$(document).ready(function(){
-	$(".option-li").click(function(){  
-		$(".menu").css("display", "none");
+/*$(document).ready(main);
+var contador = 1;
+function main () {
+	$('.menu_bar').click(function(){
+		if (contador == 1) {
+			$('nav').animate({
+				top: '-100%'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				top: '14%'
+			});
+		}
 	});
-	$("#btn-menu").click(function(){
-		$(".menu").css("display", "block");
-	});
-});
+}*/
