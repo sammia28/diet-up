@@ -1,35 +1,50 @@
-@media (max-width: 768px){
-	header label{
-    	display: block;
-	    font-size: 2em;
-	    margin: 1rem;
-	    z-index: 1;
+@media screen and (max-width: 800px) {
+	body {
+		padding-top:80px;
 	}
-	.menu{
-		position: absolute;
-		top: 50px;
-		left: 0;
-		width: 100%;
-		transform: translateX(-100%);
+	.menu_bar {
+		display:block;
+		background:#2c77ad;
+		position: fixed;
+		top:0;
+	    height: 4rem;
+		width:100%;
 	}
-	nav.menu {
-	    position: absolute;
-	}
-	.menu ul{
+	.menu_bar .bt-menu {
 		display: block;
-		background: #555;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
 	}
-	.menu ul li:hover ul{
-		display: none;
+	.menu_bar span {
+		float: right;
+		font-size: 1em;
 	}
-	#btn-menu:checked ~ .menu{
-	    margin: 0;
-	    padding: 0;
-		transform: translateX(0%);
+	header nav {
+	    background: rgba(57, 89, 112, 0.98);
+	    text-align: left;
+	    position: fixed;
+	    width: 100%;
+		margin: -1rem 0;
+	    overflow: scroll;
+	}
+
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+	header nav ul li a {
+		display: block;
 	}
 }
 
 @media only screen and (min-width : 320px) and (max-width : 768px){
+	.banner1{
+		margin-top: 2rem;
+	}
 	.banner1 img {
 	    height: 230px;
 	}
@@ -122,8 +137,7 @@
 	button.b3-btn {
 	    padding: 0.1rem 3rem;
 	    border: 3px solid #39739c;
-	    float: right;
-	    margin: 0.5rem 1rem;
+	    margin: 0.5rem 3rem;
 	    font-size: 1em;
 	    background: #39739c;
 	}
@@ -179,7 +193,10 @@
 	    margin: 4rem 0 0;
 	}
 	.banner5-text-h2 {
-	    font-size: 2em;
+	    font-size: 1.5em;
+	}
+	p.banner5-text-p {
+	    font-size: 1.5em;
 	}
 	.banner5-content {
 	    top: 18%;
@@ -189,9 +206,13 @@
 	    display: none;
 	}
 	.banner5-text {
-	    position: initial;
-	    text-align: left;
+	    text-align: center;
+    	left: 8%;
 	}
+	.icon-zanahoria {
+	    top: 6%;
+	    left: 40%;
+}
 
 /* ------------FOOTER------------------------------ */
 
