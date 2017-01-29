@@ -15,17 +15,16 @@ body{
 }
 .header-logo {
     position: absolute;
-    left: 4%;
+    left: 2.5%;
 }
 .logo-diet-up {
-    width: 33%;
+    width: 50%;
     margin: 1rem 2rem;
 }
 header {
     width: 100%;
     z-index: 1 !important;
     position: fixed;
-    background: rgba(44, 119, 173, 0.72);
     height: 4rem;
 }
 header nav {
@@ -132,30 +131,33 @@ h1 {
 }
 .logo-apple{
 	top: 45%;
-    left: 10%;
+    left: 15%;
 }
 .parrafo-apple{
 	top: 65%;
     left: 10%;
     font-size: 27px;
+    text-align: center;
 }
 .logo-escala{
 	top: 13%;
-    left: 75%;
+    left: 76.5%;
 }
 .parrafo-escala{
 	top: 32%;
     left: 75%;
     font-size: 27px;
+    text-align: center;
 }
 .logo-copa{
 	top: 58%;
-    left: 75%;
+    left: 76.5%;
 }
 .parrafo-copa{
 	top: 75%;
     left: 75%;
     font-size: 27px;
+    text-align: center;
 }
 .b2-text-h2{
 	font-size: 2.7em;
