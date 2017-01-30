@@ -1,5 +1,48 @@
-@media (max-width: 768px){
-/* ---------BANNER 1..---------*/
+
+@media only screen and (min-width : 320px) and (max-width : 800px){
+/* ---------HEADER ------------*/
+	.menu_bar {
+		display:block;
+		background:#2c77ad;
+		position: fixed;
+		top:0;
+	    height: 4rem;
+		width:100%;
+	}
+	.menu_bar .bt-menu {
+		display: block;
+		padding: 20px;
+		color: #fff;
+		overflow: hidden;
+		font-size: 25px;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	.menu_bar span {
+		float: right;
+		font-size: 1em;
+	}
+	header nav {
+	    background: rgba(57, 89, 112, 0.98);
+	    text-align: left;
+	    position: fixed;
+	    width: 100%;
+		margin: -1rem 0;
+	    overflow: scroll;
+	}
+
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgba(255,255,255,.5);
+	}
+	header nav ul li a {
+		display: block;
+	}
+	header#header-menu {
+	    background: transparent !important;
+	}
+
+/* ---------BANNER 1-----------*/
 	.banner1-img{
 		height: 200px;
 	}

@@ -7,6 +7,48 @@ body{
 	font-family: 'Lato', sans-serif;
 	color: #fff;
 }
+/* ------------HEADER --------------*/
+
+
+.menu_bar {
+    display:none;
+}
+.header-logo {
+    position: absolute;
+    left: 2.5%;
+}
+.logo-diet-up {
+    width: 50%;
+    margin: 0.5rem;
+}
+header {
+    width: 100%;
+    z-index: 1 !important;
+    position: fixed;
+    height: 4rem;
+}
+header nav {
+    margin: 0rem 2rem;
+    text-align: right;
+}
+header nav ul {
+    list-style:none;
+}
+header nav ul li {
+    display:inline-block;
+    position: relative;
+}
+ 
+header nav ul li:hover {
+    background:#2c77ad;
+}
+header nav ul li a {
+    color:#fff;
+    display:block;
+    text-decoration:none;
+    padding: 20px;
+}
+
 
 /* ------------BANNER1----------- */
 
@@ -17,12 +59,6 @@ body{
 .banner1-img{
     width: 100%;
 }
-.logo {
-    position: absolute;
-    top: 7%;
-    left: 5%;
-    width: 10%;
-}
 .banner1-text {
     position: absolute;
     left: 60%;
@@ -31,7 +67,7 @@ body{
 }
 .banner1-text h2 {
     font-weight: lighter;
-    font-size: 2em;
+    font-size: 3em;
     text-align: right;
 }
 .banner1-text-p {
@@ -53,7 +89,7 @@ body{
 .banner2-text{
     position: absolute;
     left: 12%;
-    top: 0%;
+    top: 7%;
     right: 47%;
 }
 .banner2-text h2{
@@ -67,7 +103,7 @@ body{
 .icon-check {
     position: absolute;
     left: 10%;
-    top: 33%;
+    top: 40%;
 }
 span.icon-ok-circle {
     display: block;
@@ -78,7 +114,7 @@ span.icon-ok-circle {
 .banner2-content-text {
     position: absolute;
     left: 16%;
-    top: 33%;
+    top: 40%;
     right: 49%;
 }
 .banner2-content-text p {
@@ -88,7 +124,7 @@ span.icon-ok-circle {
 .banner2-img-grupo {
     position: absolute;
     left: 62%;
-    top: 15%;
+    top: 22%;
     width: 25%;
 }
 /* ------------BANNER 3 - FORMULARIO---------- */
