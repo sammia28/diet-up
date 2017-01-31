@@ -223,10 +223,11 @@ h1 {
 	width: 100%;
 	height: 665px;
 }
-.banner4-text{
-    position: absolute;
-    top: 6%;
-    left: 25%;
+.banner4-text {
+    position: relative;
+    margin: 2rem;
+    left: 0;
+    font-size: 1em;
 }
 h2.form-h2, p.form-p{
 	text-align: center;

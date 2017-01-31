@@ -43,6 +43,12 @@
 	}
 
 /* ---------BANNER 1-----------*/
+	.banner1 {
+	    margin-top: 4rem;
+	}
+	.logo-diet-up {
+	    display: none;
+	}
 	.banner1-img{
 		height: 200px;
 	}
