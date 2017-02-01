@@ -1,7 +1,7 @@
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1199px) {
+
 	.menu_bar {
 		display:block;
-		background:#2c77ad;
 		position: fixed;
 		top:0;
 	    height: 4rem;
@@ -25,10 +25,9 @@
 	    text-align: left;
 	    position: fixed;
 	    width: 100%;
-		margin: -1rem 0;
+	    margin: 4rem 0;
 	    overflow: scroll;
 	}
-
 	header nav ul li {
 		display: block;
 		border-bottom:1px solid rgba(255,255,255,.5);
@@ -36,17 +35,18 @@
 	header nav ul li a {
 		display: block;
 	}
-	header#header-menu {
-	    background: transparent !important;
-	}
 }
 
 @media only screen and (min-width : 320px) and (max-width : 768px){
+
 	.banner1 {
-	    margin-top: 4rem;
+	    margin-top: 0;
 	}
 	.banner1-img {
 	   display: none;
+	}
+	.tablet1{
+	    display: none;
 	}
 	.banner1-img-mobile{
 	    display: block;
@@ -83,9 +83,8 @@
 	    width: 30%;
 	}
 
-	
-
 /* ----------BANNER SECTION 2--------------- */
+
 	.banner-fondo {
 		display: none;
 	}
@@ -144,6 +143,9 @@
 /* ----------BANNER SECTION 3--------------- */
 
 	.banner-img3 {
+	    display: none;
+	}
+	.img-tablet3{
 	    display: none;
 	}
 	.img-section3-mobile{
@@ -264,52 +266,102 @@
 	}    
 }
 
-
-
 /* -----Tablets en horizonal y escritorios normales------ */
 
 
-@media (min-width: 960px) and (max-width: 1199px) { 
+@media (min-width: 768px) and (max-width: 1199px) { 
+	.banner1 {
+	    margin-top: 0rem;
+	    position: relative;
+	}
+	.banner1-img{
+		display: none;
+	}
+	.tablet1{
+	    display: block;
+	    width: 100%;
+	    height: 640px;
+	}
 	.logo-diet-up{
 		display: none;
 	}
-	.banner1 img{
-		height: 450px
-	}
 	.text-banner1 {
-	    top: 2%;
+	    top: 15%;
+	    text-align: center;
+	    left: 8%;
+	    font-size: 1.5em;
 	}
 	.icon-option {
-	    top: 85%;
-	    left: 70%;
+	    top: 79%;
+    	left: 42%;
+	}
+	.icon-down-open-big {
+	    top: 93%;
+	    left: 47%;
 	}
 
 /* ---------------------BANNER 2--------------------- */
 
+	.banner-fondo {
+		display: none;
+	}
 	img.phone {
-	    display: none;
+    	display: none;
+	}
+	.img-section2-mobile{
+		display: block;
+		width: 100%;
+		height: 660px;
 	}
 	.b2-text-h2 {
-	    top: 10%;
+	    top: 13%;
+	    left: 33%;
 	}
 	.b2-text-h3 {
 	    top: 20%;
+	    left: 36%
+	}
+	.logo-apple {
+	    top: 39%;
+    	left: 12%;
+	}
+	.parrafo-apple {
+	    top: 64%;
+	    left: 6%;
+	    font-size: 1.5em;
 	}
 	.logo-escala {
-	    left: 65%;
+	    top: 39%;
+    	left: 46%;
 	}
 	.parrafo-escala {
-	    left: 65%;
+	    top: 64%;
+	    left: 44%;
+	    font-size: 1.5em;
 	}
 	.logo-copa {
-	    left: 65%;
+	    top: 39%;
+	    left: 79%;
 	}
 	.parrafo-copa {
-	    left: 65%;
+	    top: 64%;
+	    left: 78%;
+	    font-size: 1.5em;
 	}
 
 /* ---------------------BANNER 3--------------------- */
 
+	.banner-img3{
+		display: none;
+	}
+	.img-section3-mobile {
+	    display: none;
+	}
+	.img-tablet3{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
 	.b3-text-h2 {
 	    font-size: 1.7em;
 	}
@@ -317,7 +369,10 @@
 	    margin: 1rem 0;
 	}
 	.text-banner3 {
-	    top: 8%;
+	    top: 16%;
+	    text-align: center;
+	    left: 19%;
+	    font-size: 1.3em;
 	}
 
 /* ---------------------FORM--------------------- */
@@ -336,17 +391,12 @@
 	    position: inherit;
 	    margin: 5rem;
 	}
-	.datos, .email-enterprise, .form-textarea {
-	    margin: 0; 
-	}
-	input.form-name, input.form-last-name, input.form-email, input.form-enterprise, textarea.text-mensaje{
-	    display: block;
-	    width: 100%;
-	    margin: 1rem 0;
-	}
 	button.text-btn-envio {
 	    float: right;
 	    margin: 0rem;
+	}
+	textarea.text-mensaje {
+	    width: 98%;
 	}
 	.form-btn {
 	    margin: 3rem;
@@ -357,17 +407,20 @@
 	.banner5-img {
 	    height: 500px;
 	}
+	.icon-zanahoria {
+	    left: 43%;
+	}
 	.banner5-content {
 	    top: 4%;
 	}
 	.banner5-img-phone {
-	    width: 83%;
-	    height: 481px;
+	    display: none;
 	}
 	.banner5-text {
-	    left: 70%;
+	    left: 22%;
 	    top: 15%;
-	    width: 76%;
+	    text-align: center;
+	    font-size: 1.3em;
 	}
 	.banner5-text-h2 {
 	    font-size: 2em;

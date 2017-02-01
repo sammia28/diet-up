@@ -10,7 +10,7 @@ function main () {
 		} else {
 			contador = 1;
 			$("nav").animate({
-				top: "14%"
+				top: "1%"
 			});
 		}
 	});
