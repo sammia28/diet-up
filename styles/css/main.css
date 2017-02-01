@@ -65,6 +65,9 @@ section{
 .banner1-img-mobile{
     display: none;
 }
+.tablet1{
+    display: none;
+}
 .text-banner1{
 	position: absolute;
     top: 21%;
@@ -182,6 +185,9 @@ h1 {
 .img-section3-mobile {
     display: none;
 }
+.img-tablet3{
+    display: none;
+}
 .text-banner3{
     top: 20%;
     left: 11%;
@@ -224,10 +230,11 @@ h1 {
 	height: 665px;
 }
 .banner4-text {
-    position: relative;
+    position: absolute;
     margin: 2rem;
-    left: 0;
+    left: 26%;
     font-size: 1em;
+    top: 4%;
 }
 h2.form-h2, p.form-p{
 	text-align: center;
