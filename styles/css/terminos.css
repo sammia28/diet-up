@@ -62,7 +62,6 @@ section {
     text-align: justify;
     line-height: 1.5;
     min-height: 100%;
-    margin-bottom: -150px;
 }
 h1{
     text-align: center;
@@ -91,6 +90,7 @@ footer{
     height: 50px;
     background: #36bca9;
     bottom: 0;
+    margin-top: 5rem;
 }
 .text-footer {
     margin: 1rem 3rem;

@@ -257,9 +257,6 @@
 }
 
 /* ------------FOOTER------------------------------ */
-	.footer-text{
-		display: none;
-	}
 	.footer-icon{
 	    font-size: 1em;
 	    left: 70%;
@@ -430,7 +427,7 @@
 
 /*-------------------FOOTER---------------------- */
 
-.footer-icon {
+	.footer-icon {
 	    left: 85%;
 	}
 }
