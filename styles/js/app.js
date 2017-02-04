@@ -22,14 +22,14 @@ function main () {
 	       $("#header-menu").css({
 			  	"background": "#fff"
 			});
-	       $(".lala").css({
+	       $(".text-color").css({
 	       		"color" : "gray"
 	       });
 	    } else {
 	    	$("#header-menu").css({
 	    		"background-color" : "transparent"
 	    	});
-	    	 $(".lala").css({
+	    	 $(".text-color").css({
 	       		"color" : "#fff"
 	       });
 	    }
