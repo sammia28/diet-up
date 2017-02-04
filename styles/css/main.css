@@ -16,11 +16,22 @@ body{
 .header-logo {
     position: absolute;
     left: 2.5%;
+    width: 100px;
+    background: #fff;
+    height: 95px;
+    border-radius: 200px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border: 0px solid #000000;
+    top: 15px
 }
 .logo-diet-up {
-    width: 50%;
-    margin: 0.5rem;
+    width: 100%;
+    /* margin: 0.5rem; */
+    margin: auto;
+    padding-top: 20px;
 }
+
 header {
     width: 100%;
     z-index: 1 !important;
@@ -42,8 +53,45 @@ header nav ul li {
 header nav ul li:hover {
     background:#2c77ad;
 }
+header nav ul li:hover a{
+    background:#2c77ad;
+}
+
 header nav ul li a {
-    color:#fff;
+    color:#FFF;
+    display:block;
+    text-decoration:none;
+    padding: 20px;
+}
+
+/*----*/
+
+.navJS {
+    margin: 0rem 2rem;
+    text-align: right;
+}
+.navJS ul {
+    list-style:none;
+}
+.navJS ul li {
+    display:inline-block;
+    position: relative;
+    background: #FFF;
+}
+
+.navJS ul li:hover {
+    background:#FFF;
+}
+.navJS ul li:hover a{
+    background:#FFF;
+}
+.navJS ul li:hover a{
+    color:#2c77ad;
+    transition: all 0.3s linear;
+}
+
+.navJS ul li a {
+    color:#666;
     display:block;
     text-decoration:none;
     padding: 20px;
