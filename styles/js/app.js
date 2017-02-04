@@ -1,6 +1,7 @@
 $(document).ready(main);
 var contador = 1;
 function main () {
+	// $("nav").css("display" , "none");
 	$(".menu_bar").click(function(){
 		if (contador == 1) {
 			$("nav").animate({
@@ -16,11 +17,21 @@ function main () {
 	});
 	$(window).scroll(function(){
 	    window_y = $(window).scrollTop();
-	    scroll_critical = parseInt($("#header-menu").height());
+	    scroll_critical = $("#header-menu").height();
 	    if (window_y > scroll_critical) {
-	       $("#header-menu").css("background-color","#14c6ae");
+	       $("#header-menu").css({
+			  	"background": "#fff"
+			});
+	       $(".lala").css({
+	       		"color" : "gray"
+	       });
 	    } else {
-	    	$("#header-menu").css("background-color","transparent");
+	    	$("#header-menu").css({
+	    		"background-color" : "transparent"
+	    	});
+	    	 $(".lala").css({
+	       		"color" : "#fff"
+	       });
 	    }
 	});
 }

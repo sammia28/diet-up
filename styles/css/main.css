@@ -42,7 +42,7 @@ header nav ul li {
 header nav ul li:hover {
     background:#2c77ad;
 }
-header nav ul li a {
+.lala{
     color:#fff;
     display:block;
     text-decoration:none;
