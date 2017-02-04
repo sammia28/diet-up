@@ -10,15 +10,16 @@
 	.menu_bar .bt-menu {
 		display: block;
 		padding: 20px;
-		color: #fff;
+		color: gray;
 		overflow: hidden;
 		font-size: 25px;
 		font-weight: bold;
 		text-decoration: none;
 	}
 	.menu_bar span {
+	    color: #545973;
 		float: right;
-		font-size: 1em;
+	    font-size: 1.3em;
 	}
 	header nav {
 	    background: rgba(57, 89, 112, 0.98);

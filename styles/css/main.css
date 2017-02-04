@@ -38,16 +38,17 @@ header nav ul li {
     display:inline-block;
     position: relative;
 }
- 
 header nav ul li:hover {
-    background:#2c77ad;
+    background:rgba(44, 119, 173, 0.82);
 }
-.lala{
+.text-color{
     color:#fff;
     display:block;
     text-decoration:none;
     padding: 20px;
 }
+
+
 
 /* ---------------BANNER SECTION 1 ---------------- */
 
