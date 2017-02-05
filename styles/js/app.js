@@ -19,13 +19,6 @@ function main () {
 		}
 	});
 
-    /*$( "#header-menu nav .menu-hide" ).click(function() {
-        $("nav").animate({
-            top: "-100%"
-        });
-        contador = 1;
-    });*/
-
 	$(window).scroll(function(){
 	    var window_y = $(window).scrollTop();
 	    var scroll_critical = parseInt($("#header-menu").height());
