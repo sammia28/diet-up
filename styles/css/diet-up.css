@@ -193,27 +193,16 @@ textarea.text-mensaje {
     overflow: hidden;
 
 }
-span.icon-mail {
-    border-radius: 100%;
-    border: 1px solid gray;
-    color: gray;
-    font-size: 1.2em;
-    padding: 6px 5px 9px 5px;
-    position: absolute;
-    left: 51%;
-    top: 82%;
-}
 button.text-btn-envio {
     border: 2px solid #3e7cb1;
     background: #3e7cb1;
     color: #fff;
     cursor: pointer;
     font-size: 18px;
-    float: right;
     padding: 0.5rem 4rem;
     position: absolute;
     top: 81%;
-    left: 68%;
+    left: 45%;
 }
 /* --------------------FOOTER-------------------- */
 
