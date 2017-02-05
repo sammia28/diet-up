@@ -1,40 +1,32 @@
-@media screen and (max-width: 800px) {
-	#lala{
+@media screen and (max-width: 1199px) {
 
-	}
-	header{
-		background: #FFF;
-	}
 	.menu_bar {
 		display:block;
 		position: fixed;
 		top:0;
-	    height: 4rem;
+		height: 4rem;
 		width:100%;
 	}
 	.menu_bar .bt-menu {
 		display: block;
 		padding: 20px;
-		color: #fff;
+		color: gray;
 		overflow: hidden;
 		font-size: 25px;
 		font-weight: bold;
 		text-decoration: none;
 	}
 	.menu_bar span {
+		color: #545973;
 		float: right;
-		font-size: 1em;
-		color: #666;
+		font-size: 1.3em;
 	}
 	header nav {
-	    background: rgba(57, 89, 112, 0.98);
-	    text-align: left;
-	    position: fixed;
-	    width: 100%;
-	    margin: 4rem 0;
-	    overflow-y: auto;
-		display: block;
-		top: -100%;
+		background: rgba(57, 89, 112, 0.98);
+		text-align: left;
+		position: fixed;
+		width: 100%;
+		margin: 4rem 0;
 	}
 	header nav ul li {
 		display: block;
@@ -43,131 +35,104 @@
 	header nav ul li a {
 		display: block;
 	}
-
-	.header-logo {
-		width: 70px;
-		height: 70px;
-		background: transparent;
-		top: 0px;
-	}
-
 }
 
-@media only screen and (min-width : 320px) and (max-width : 768px) {
+@media only screen and (min-width : 320px) and (max-width : 768px){
 
 	.banner1 {
 		margin-top: 0;
 	}
-
 	.banner1-img {
 		display: none;
 	}
-
-	.tablet1 {
+	.tablet1{
 		display: none;
 	}
-
-	.banner1-img-mobile {
+	.banner1-img-mobile{
 		display: block;
 		width: 100%;
 	}
-
 	.text-banner1 {
 		top: 13%;
 		left: 6%;
 		text-align: center;
 	}
-
 	h1 {
 		font-size: 1.6em;
 		line-height: 1;
 	}
-
 	.text-banner1 p {
 		font-size: 1.3em;
 		line-height: 1;
 		margin: 1rem;
 		font-weight: lighter;
 	}
-
 	.icon-option {
 		top: 75%;
 		left: 35%;
 	}
-
 	.logo-diet-up {
-		display: block;
+		display: none;
 	}
-
 	span.icon-down-open-big {
 		left: 44%;
 		top: 93%;
 	}
-
 	.banner1-icon-app {
 		margin: -8px 3px;
 		width: 30%;
 	}
 
 	/* ----------BANNER SECTION 2--------------- */
+
 	.banner-fondo {
 		display: none;
 	}
-
 	img.phone {
 		display: none;
 	}
-
-	.img-section2-mobile {
+	.img-section2-mobile{
 		display: block;
 		width: 100%;
 		height: 900px;
 	}
-
 	.b2-text-h2 {
 		font-size: 1.5em;
 		top: 9%;
 		left: 29%;
 	}
-
 	.b2-text-h3 {
 		font-size: 2em;
 		top: 13%;
 		left: 31%;
 	}
-
 	.logo-apple {
 		top: 23%;
 		left: 40%;
 		width: 25%;
 	}
-
 	.parrafo-apple {
 		top: 33%;
 		left: 25%;
 		font-size: 1.2em;
 		text-align: center;
 	}
-
 	.logo-escala {
 		top: 45%;
 		left: 35%;
 		width: 25%;
 	}
-
 	.parrafo-escala {
 		top: 55%;
 		left: 27%;
 		font-size: 1.2em;
 		text-align: center;
 	}
-
 	.logo-copa {
 		top: 68%;
 		left: 36%;
 		width: 25%;
 	}
-
 	.parrafo-copa {
 		top: 78%;
 		left: 32%;
@@ -176,36 +141,31 @@
 	}
 
 	/* ----------BANNER SECTION 3--------------- */
+
 	.banner-img3 {
 		display: none;
 	}
-
-	.img-tablet3 {
+	.img-tablet3{
 		display: none;
 	}
-
-	.img-section3-mobile {
+	.img-section3-mobile{
 		display: block;
 		width: 100%;
 		height: 320px;
 	}
-
 	.text-banner3 {
 		top: 12%;
 		text-align: center;
 		left: 7%;
 		right: 7%;
 	}
-
 	.b3-text-h2 {
 		font-size: 2em;
 	}
-
 	.b3-text-p {
 		font-size: 1em;
 		margin: 1.5rem;
 	}
-
 	button.b3-btn {
 		padding: 0.5rem 3rem;
 		border: 3px solid #39739c;
@@ -215,106 +175,76 @@
 	}
 
 	/* ---------------BANNER 4--------------------- */
-	.banner-form {
-		position: initial;
-	}
 
 	.banner4-text {
 		position: relative;
 		margin: 1rem;
 		left: 0;
 	}
-
 	h2.form-h2 {
 		font-size: 1.5em;
 	}
-
 	p.form-p {
 		font-size: 1.2em;
 		line-height: 1.3;
 		margin: 1rem 0;
 	}
-
 	.form-banner4 {
 		display: none;
 	}
-
 	.form-text {
-		position: inherit;
+		position: relative;
 		margin: 0 3rem;
+		left: 0%;
 	}
-
 	.datos, .email-enterprise, .form-textarea {
 		margin: 0;
 	}
-
-	input.form-name, input.form-last-name, input.form-email, input.form-enterprise, textarea.text-mensaje {
+	input.form-name, input.form-last-name, input.form-email, input.form-enterprise, textarea.text-mensaje{
 		display: block;
 		width: 100%;
 		margin: 1rem 0;
 	}
-
-	.form-btn {
-		margin: 2rem -1.5rem;
-	}
-
-	.span-mail {
-		font-size: 0.7em;
-		margin: 0;
-	}
-
-	span.icon-mail {
-		font-size: 0.8em;
-		padding: 4px;
-	}
-
 	button.text-btn-envio {
-		float: right;
-		margin: -0.5rem 0;
-		padding: 0.5rem 2.5rem;
+		margin: 0rem;
+		padding: 0.5rem 5.8rem;
 		font-size: 0.8em;
+		top: 102%;
+		left: 15%;
 	}
 
 	/* -------------------BANNER 5--------------------- */
+
 	.banner5-img {
 		height: 400px;
 		margin: 4rem 0 0;
 	}
-
 	.banner5-text-h2 {
 		font-size: 2em;
 	}
-
 	p.banner5-text-p {
 		font-size: 1.5em;
 	}
-
 	.banner5-content {
 		top: 18%;
 		left: 13%;
 	}
-
 	.banner5-img-phone {
 		display: none;
 	}
-
 	.banner5-text {
 		text-align: center;
 		left: 8%;
 		top: 35%;
 	}
-
 	.icon-zanahoria {
-		top: 6%;
-		left: 40%;
+		top: 9%;
+		left: 42%;
+		width: 15%;
 	}
 
 	/* ------------FOOTER------------------------------ */
-	.footer-text {
-		display: none;
-	}
-
-	.footer-icon {
+	.footer-icon{
 		font-size: 1em;
 		left: 70%;
 		top: 23%;
@@ -326,42 +256,42 @@
 
 @media (min-width: 768px) and (max-width: 1199px) {
 	.banner1 {
-	    margin-top: 0rem;
-	    position: relative;
+		margin-top: 0rem;
+		position: relative;
 	}
 	.banner1-img{
 		display: none;
 	}
 	.tablet1{
-	    display: block;
-	    width: 100%;
-	    height: 640px;
+		display: block;
+		width: 100%;
+		height: 640px;
 	}
 	.logo-diet-up{
 		display: none;
 	}
 	.text-banner1 {
-	    top: 15%;
-	    text-align: center;
-	    left: 8%;
-	    font-size: 1.5em;
+		top: 15%;
+		text-align: center;
+		left: 8%;
+		font-size: 1.5em;
 	}
 	.icon-option {
-	    top: 79%;
-    	left: 42%;
+		top: 79%;
+		left: 42%;
 	}
 	.icon-down-open-big {
-	    top: 93%;
-	    left: 47%;
+		top: 93%;
+		left: 47%;
 	}
 
-/* ---------------------BANNER 2--------------------- */
+	/* ---------------------BANNER 2--------------------- */
 
 	.banner-fondo {
 		display: none;
 	}
 	img.phone {
-    	display: none;
+		display: none;
 	}
 	.img-section2-mobile{
 		display: block;
@@ -369,48 +299,48 @@
 		height: 660px;
 	}
 	.b2-text-h2 {
-	    top: 13%;
-	    left: 33%;
+		top: 13%;
+		left: 33%;
 	}
 	.b2-text-h3 {
-	    top: 20%;
-	    left: 36%
+		top: 20%;
+		left: 36%
 	}
 	.logo-apple {
-	    top: 39%;
-    	left: 12%;
+		top: 39%;
+		left: 12%;
 	}
 	.parrafo-apple {
-	    top: 64%;
-	    left: 6%;
-	    font-size: 1.5em;
+		top: 64%;
+		left: 6%;
+		font-size: 1.5em;
 	}
 	.logo-escala {
-	    top: 39%;
-    	left: 46%;
+		top: 39%;
+		left: 46%;
 	}
 	.parrafo-escala {
-	    top: 64%;
-	    left: 44%;
-	    font-size: 1.5em;
+		top: 64%;
+		left: 44%;
+		font-size: 1.5em;
 	}
 	.logo-copa {
-	    top: 39%;
-	    left: 79%;
+		top: 39%;
+		left: 79%;
 	}
 	.parrafo-copa {
-	    top: 64%;
-	    left: 78%;
-	    font-size: 1.5em;
+		top: 64%;
+		left: 78%;
+		font-size: 1.5em;
 	}
 
-/* ---------------------BANNER 3--------------------- */
+	/* ---------------------BANNER 3--------------------- */
 
 	.banner-img3{
 		display: none;
 	}
 	.img-section3-mobile {
-	    display: none;
+		display: none;
 	}
 	.img-tablet3{
 		display: block;
@@ -418,74 +348,75 @@
 		height: auto;
 	}
 	.b3-text-h2 {
-	    font-size: 1.7em;
+		font-size: 1.7em;
 	}
 	.b3-text-p {
-	    margin: 1rem 0;
+		margin: 1rem 0;
 	}
 	.text-banner3 {
-	    top: 16%;
-	    text-align: center;
-	    left: 19%;
-	    font-size: 1.3em;
+		top: 16%;
+		text-align: center;
+		left: 19%;
+		font-size: 1.3em;
 	}
 
-/* ---------------------FORM--------------------- */
+	/* ---------------------FORM--------------------- */
 
 	.banner-form {
-	    position: initial;
+		position: relative;
+		height: 620px;
 	}
 	.banner4-text {
-	    position: inherit;
-	    margin: 3rem;
+		position: relative;
+		margin: 3rem;
+		left: 0%;
 	}
 	.form-banner4 {
-	    display: none;
+		display: none;
 	}
 	.form-text {
-	    position: inherit;
-	    margin: 5rem;
+		position: relative;
+		margin: 0 3rem;
+		left: 0%;
+		top: 6%;
 	}
 	button.text-btn-envio {
-	    float: right;
-	    margin: 0rem;
+		margin: 0rem;
 	}
 	textarea.text-mensaje {
-	    width: 98%;
+		width: 98%;
 	}
-	.form-btn {
-	    margin: 3rem;
+	button.text-btn-envio {
+		left: 39%;
 	}
-
-/* --------------------BANNER 5-------------*/
+	/* --------------------BANNER 5-------------*/
 
 	.banner5-img {
-	    height: 500px;
+		height: 500px;
 	}
 	.icon-zanahoria {
-	    left: 43%;
+		left: 43%;
 	}
 	.banner5-content {
-	    top: 4%;
+		top: 4%;
 	}
 	.banner5-img-phone {
-	    display: none;
+		display: none;
 	}
 	.banner5-text {
-	    left: 22%;
-	    top: 15%;
-	    text-align: center;
-	    font-size: 1.3em;
+		left: 22%;
+		top: 15%;
+		text-align: center;
+		font-size: 1.3em;
 	}
 	.banner5-text-h2 {
-	    font-size: 2em;
-	    margin: 1rem;
+		font-size: 2em;
+		margin: 1rem;
 	}
 
-/*-------------------FOOTER---------------------- */
+	/*-------------------FOOTER---------------------- */
 
-.footer-icon {
-	    left: 85%;
+	.footer-icon {
+		left: 85%;
 	}
 }
-

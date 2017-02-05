@@ -49,10 +49,10 @@ header nav ul li {
     display:inline-block;
     position: relative;
 }
- 
 header nav ul li:hover {
-    background:#2c77ad;
+    background:rgba(44, 119, 173, 0.82);
 }
+
 header nav ul li:hover a{
     background:#2c77ad;
 }
@@ -96,6 +96,8 @@ header nav ul li a {
     text-decoration:none;
     padding: 20px;
 }
+
+
 
 /* ---------------BANNER SECTION 1 ---------------- */
 
@@ -310,9 +312,6 @@ input.form-name, input.form-last-name, input.form-email, input.form-enterprise, 
 	font-size: 1em;
 	padding: 1rem;
 }
-.form-btn{
-	margin: 1rem;
-}
 input.form-name {
     margin-right: 10px;
     width: 44%;
@@ -333,17 +332,6 @@ textarea.text-mensaje {
     overflow: hidden;
 
 }
-span.icon-mail {
-    border-radius: 100%;
-    border: 1px solid gray;
-    color: gray;
-    font-size: 1.2em;
-    padding: 6px 5px 9px 5px;
-}
-.span-mail{
-	color: #06d5ef;
-    margin: 0.5rem;
-}
 button.text-btn-envio {
     border: 2px solid #3e7cb1;
     background: #3e7cb1;
@@ -352,6 +340,9 @@ button.text-btn-envio {
     font-size: 18px;
     float: right;
     padding: 0.5rem 4rem;
+    position: absolute;
+    top: 81%;
+    left: 45.5%;
 }
 
 /* -------------------- BANNER5------------- */

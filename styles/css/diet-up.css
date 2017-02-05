@@ -40,15 +40,17 @@ header nav ul li {
 }
  
 header nav ul li:hover {
-    background:#2c77ad;
+    background:rgba(44, 119, 173, 0.82);
 }
-header nav ul li a {
+.text-color{
     color:#fff;
     display:block;
     text-decoration:none;
     padding: 20px;
 }
-
+.text-color{
+    color: #fff;
+}
 
 /* ------------BANNER1----------- */
 
@@ -191,27 +193,17 @@ textarea.text-mensaje {
     overflow: hidden;
 
 }
-span.icon-mail {
-    border-radius: 100%;
-    border: 1px solid gray;
-    color: gray;
-    font-size: 1.2em;
-    padding: 6px 5px 9px 5px;
-}
-.span-mail{
-	color: #06d5ef;
-    margin: 0.5rem;
-}
 button.text-btn-envio {
     border: 2px solid #3e7cb1;
     background: #3e7cb1;
     color: #fff;
     cursor: pointer;
     font-size: 18px;
-    float: right;
     padding: 0.5rem 4rem;
+    position: absolute;
+    top: 81%;
+    left: 45%;
 }
-
 /* --------------------FOOTER-------------------- */
 
 footer{
