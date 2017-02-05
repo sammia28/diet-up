@@ -1,5 +1,5 @@
 $(document).ready(main);
-$("#descarga").click(function(){
+$(".descarga").click(function(){
 	alert("DISPONIBLE PRÓXIMAMENTE EN ANDROID Y IOS");
 });
 var contador = 1;
