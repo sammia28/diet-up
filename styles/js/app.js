@@ -1,4 +1,7 @@
 $(document).ready(main);
+$("#descarga").click(function(){
+	alert("DISPONIBLE PRÓXIMAMENTE EN ANDROID Y IOS");
+});
 var contador = 1;
 function main () {
 	// $("nav").css("display" , "none");
@@ -16,12 +19,12 @@ function main () {
 		}
 	});
 
-    $( "#header-menu nav .menu-hide" ).click(function() {
+    /*$( "#header-menu nav .menu-hide" ).click(function() {
         $("nav").animate({
             top: "-100%"
         });
         contador = 1;
-    });
+    });*/
 
 	$(window).scroll(function(){
 	    var window_y = $(window).scrollTop();
@@ -47,6 +50,7 @@ function main () {
             }
         }
 	});
+
 }
 
 var isMobile = {
