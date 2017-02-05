@@ -1,4 +1,7 @@
 $(document).ready(main);
+$("#descarga").click(function(){
+	alert("DISPONIBLE PRÓXIMAMENTE EN ANDROID Y IOS");
+});
 var contador = 1;
 function main () {
 	// $("nav").css("display" , "none");
@@ -15,6 +18,7 @@ function main () {
 			});
 		}
 	});
+
 	$(window).scroll(function(){
 	    window_y = $(window).scrollTop();
 	    scroll_critical = $("#header-menu").height();
@@ -34,5 +38,6 @@ function main () {
 	       });
 	    }
 	});
+
 }
 
