@@ -33,9 +33,9 @@ body{
 
 header {
     width: 100%;
-    z-index: 1 !important;
     position: fixed;
     height: 4rem;
+    z-index: 1 !important;
 }
 header nav {
     margin: 0rem 2rem;

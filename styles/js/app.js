@@ -4,7 +4,6 @@ $("#descarga").click(function(){
 });
 var contador = 1;
 function main () {
-	// $("nav").css("display" , "none");
 	$(".menu_bar").click(function(){
 		if (contador == 1) {
 			$("nav").animate({
