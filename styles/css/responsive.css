@@ -176,9 +176,6 @@
 
 /* ---------------BANNER 4--------------------- */
 
-	.banner-form {
-	    position: initial;
-	}
 	.banner4-text {
 	    position: relative;
 	    margin: 1rem;
@@ -196,8 +193,9 @@
 	    display: none;
 	}
 	.form-text {
-	    position: inherit;
+	   position: relative;
 	    margin: 0 3rem;
+	    left: 0%;
 	}
 	.datos, .email-enterprise, .form-textarea {
 	    margin: 0; 
@@ -207,19 +205,19 @@
 	    width: 100%;
 	    margin: 1rem 0;
 	}
-	.form-btn {
-	    margin: 2rem -1.5rem;
-	}
 	span.icon-mail {
 	    font-size: 0.8em;
 	    padding: 4px;
+    	position: relative;
+    	left: 16%;
 	}
-
 	button.text-btn-envio {
 	    float: right;
 	    margin: -0.5rem 0;
 	    padding: 0.5rem 2.5rem;
 	    font-size: 0.8em;
+	    top: 98%;
+    	left: 47%;
 	}	
 
 /* -------------------BANNER 5--------------------- */
@@ -371,18 +369,22 @@
 /* ---------------------FORM--------------------- */
 
 	.banner-form {
-	    position: initial;
+	    position: relative;
+	    height: 620px;
 	}
 	.banner4-text {
-	    position: inherit;
-	    margin: 3rem;
+	   	position: relative;
+    	margin: 3rem;
+    	left: 0%;
 	}
 	.form-banner4 {
 	    display: none;
 	}
 	.form-text {
-	    position: inherit;
-	    margin: 5rem;
+	   	position: relative;
+	    margin: 0 3rem;
+	   	left: 0%;
+	   	top: 6%;
 	}
 	button.text-btn-envio {
 	    float: right;

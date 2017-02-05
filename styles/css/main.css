@@ -263,9 +263,6 @@ input.form-name, input.form-last-name, input.form-email, input.form-enterprise, 
 	font-size: 1em;
 	padding: 1rem;
 }
-.form-btn{
-	margin: 1rem;
-}
 input.form-name {
     margin-right: 10px;
     width: 44%;
@@ -292,6 +289,9 @@ span.icon-mail {
     color: gray;
     font-size: 1.2em;
     padding: 6px 5px 9px 5px;
+    position: absolute;
+    left: 51%;
+    top: 82%;
 }
 button.text-btn-envio {
     border: 2px solid #3e7cb1;
@@ -301,6 +301,9 @@ button.text-btn-envio {
     font-size: 18px;
     float: right;
     padding: 0.5rem 4rem;
+    position: absolute;
+    top: 81%;
+    left: 68%;
 }
 
 /* -------------------- BANNER5------------- */
