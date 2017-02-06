@@ -127,7 +127,7 @@ h2 {
     margin: 1rem;
 }
 h3{
-    margin: 2rem 1rem;
+    margin: 1rem;
 }
 .text-sub2{
     margin: 0 3rem;
@@ -157,7 +157,7 @@ a.icon-facebook:hover, a.icon-linkedin:hover{
 /* ------------RESPONSIVE ---------------*/
 
 @media screen and (max-width: 1024px) {
-        .content {
+    .content {
         position: relative;
     }
     header{

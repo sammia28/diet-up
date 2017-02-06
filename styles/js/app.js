@@ -2,8 +2,8 @@ $(document).ready(main);
 $(".descarga").click(function(){
 	alert("DISPONIBLE PRÓXIMAMENTE EN ANDROID Y IOS");
 });
-var contador = 1;
 function main () {
+    var contador = 1;
 	$(".menu_bar").click(function(){
 		if (contador == 1) {
 			$("nav").animate({
@@ -33,10 +33,6 @@ function main () {
             });
         }
     });
-
-
-
-
 
 	$(window).scroll(function(){
 	    var window_y = $(window).scrollTop();
