@@ -7,16 +7,36 @@ function main () {
 	$(".menu_bar").click(function(){
 		if (contador == 1) {
 			$("nav").animate({
-				top: "1%"
+				top: "-100%"
 			});
 			contador = 0;
 		} else {
 			contador = 1;
 			$("nav").animate({
-				top: "-100%"
+				top: "0%"
 			});
 		}
 	});
+        
+    var cont_margin = 1;
+
+    $(".icon-menu").click(function(){
+        if (cont_margin == 1) {
+            $(".content").animate({
+                top : "0"
+            });
+            cont_margin = 0;
+        } else {
+            cont_margin = 1;
+            $(".content").animate({
+                top : "15rem"
+            });
+        }
+    });
+
+
+
+
 
 	$(window).scroll(function(){
 	    var window_y = $(window).scrollTop();

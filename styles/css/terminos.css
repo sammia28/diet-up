@@ -156,25 +156,35 @@ a.icon-facebook:hover, a.icon-linkedin:hover{
 
 /* ------------RESPONSIVE ---------------*/
 
-@media screen and (max-width: 768px) {
-
+@media screen and (max-width: 1024px) {
+        .content {
+        position: relative;
+    }
+    header{
+        background-color: #fff;
+    }
     .menu_bar {
         display:block;
-        margin: 0rem;
+        position: fixed;
         top:0;
         height: 4rem;
         width:100%;
+        top: -6%;
+        right: 0%;
+    }
+    .header-logo {
+        display: none;
     }
     .menu_bar .bt-menu {
         display: block;
-        color: #fff;
+        padding: 20px;
+        color: gray;
+        overflow: hidden;
         font-size: 25px;
         font-weight: bold;
-        overflow: hidden;
-        padding: 20px;
         text-decoration: none;
     }
-   .menu_bar span {
+    .menu_bar span {
         color: #545973;
         float: right;
         font-size: 1.3em;
@@ -182,6 +192,7 @@ a.icon-facebook:hover, a.icon-linkedin:hover{
     header nav {
         background: rgba(57, 89, 112, 0.98);
         text-align: left;
+        position: fixed;
         width: 100%;
         margin: 4rem 0;
     }
@@ -193,9 +204,16 @@ a.icon-facebook:hover, a.icon-linkedin:hover{
         display: block;
     }
     section {
-        margin: 3rem 0;
+        margin: 0;
+        margin-top: 5rem;
     }
-    .header-logo{
-        display: none;
+    .text-sub2 {
+        margin: 0 1.5rem;
+    }
+    h1{
+        font-size: 1em;
+    }
+    h2, h3{
+        font-size: 0.7em;
     }
 }

@@ -1,5 +1,8 @@
 
 @media screen and (max-width: 1024px) {
+		.content {
+	    position: relative;
+	}
 
 /* ---------HEADER ------------*/
 	.menu_bar {
