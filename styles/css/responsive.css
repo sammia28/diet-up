@@ -58,8 +58,8 @@
 		width: 100%;
 	}
 	.text-banner1 {
-		top: 13%;
-		left: 6%;
+		top: 23%;
+    	left: 0%;
 		text-align: center;
 	}
 	h1 {
@@ -73,7 +73,7 @@
 		font-weight: lighter;
 	}
 	.icon-option {
-		top: 75%;
+		top: 80%;
 		left: 35%;
 	}
 	.logo-diet-up {
@@ -112,34 +112,37 @@
 		left: 31%;
 	}
 	.logo-apple {
-		top: 23%;
-		left: 40%;
-		width: 25%;
+	    top: 23%;
+	    left: 36%;
+	    width: 25%;
+	    margin: 1rem;
 	}
 	.parrafo-apple {
-		top: 33%;
+		top: 35%;
 		left: 25%;
 		font-size: 1.2em;
 		text-align: center;
 	}
 	.logo-escala {
-		top: 45%;
-		left: 35%;
+		top: 47%;
+		left: 32%;
 		width: 25%;
+		margin: 1rem;
 	}
 	.parrafo-escala {
-		top: 55%;
+		top: 60%;
 		left: 27%;
 		font-size: 1.2em;
 		text-align: center;
 	}
 	.logo-copa {
-		top: 68%;
-		left: 36%;
+		top: 71%;
+		left: 33%;
 		width: 25%;
+		margin: 1rem;
 	}
 	.parrafo-copa {
-		top: 78%;
+		top: 84%;
 		left: 32%;
 		font-size: 1.2em;
 		text-align: center;
@@ -246,6 +249,10 @@
 		top: 9%;
 		left: 42%;
 		width: 15%;
+	}
+	button.banner5-btn {
+	    top: 65%;
+	    left: 17%;
 	}
 
 	/* ------------FOOTER------------------------------ */
@@ -421,7 +428,10 @@
 		font-size: 2em;
 		margin: 1rem;
 	}
-
+	button.banner5-btn.descarga {
+	    top: 65%;
+	    left: 36%;
+	}
 	/*-------------------FOOTER---------------------- */
 
 	.footer-icon {
