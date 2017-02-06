@@ -57,7 +57,15 @@ function main () {
                 $(".logo-diet-up").css("padding-top", "0px");
             }
         }
-	});
+	})
+
+    /*OCULTAR MENU AL HACER CLIK()*/
+    $("#header-menu nav ul li a").click(function() {
+        if( isMobile.any() ){
+            $(".icon-menu").click();
+            contador = 0;
+        }
+    });
 
 }
 
