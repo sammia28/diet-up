@@ -1,10 +1,10 @@
-$(document).ready(carga);
+$(document).ready(cargar);
 
 $(".descarga").click(function(){
     alert("DISPONIBLE PRÓXIMAMENTE EN ANDROID Y IOS");
 });
 
-function carga (){
+function cargar (){
     if( isMobile.any() ){
         $("nav").css("display", "none");
         $(".icon-menu").click(function(){
@@ -28,7 +28,7 @@ function carga (){
             });
         }
     });
-    
+
     $(".menu_bar").click(function(){
         if (contador == 1) {
             $("nav").animate({
@@ -45,7 +45,6 @@ function carga (){
 };
 
 $(document).ready(main);
-
 
 function main () {
 
