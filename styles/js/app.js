@@ -1,10 +1,11 @@
 $(document).ready(cargar);
 
-$(".descarga").click(function(){
-    alert("DISPONIBLE PRÓXIMAMENTE EN ANDROID Y IOS");
-});
-
 function cargar (){
+
+    $(".descarga").click(function(){
+        alert("DISPONIBLE PRÓXIMAMENTE EN ANDROID Y IOS");
+    });
+
     if( isMobile.any() ){
         $("nav").css("display", "none");
         $(".icon-menu").click(function(){
