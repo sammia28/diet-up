@@ -13,7 +13,9 @@
 		width:100%;
 	}
 	.header-logo {
-		display: none;
+		background: none;
+    	width: 70px;
+    	top: 0;
 	}
 	.menu_bar .bt-menu {
 		display: block;
@@ -78,9 +80,6 @@
 	.icon-option {
 		top: 80%;
 		left: 35%;
-	}
-	.logo-diet-up {
-		display: none;
 	}
 	span.icon-down-open-big {
 		left: 44%;

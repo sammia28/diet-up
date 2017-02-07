@@ -1,42 +1,57 @@
-$(document).ready(main);
+$(document).ready(carga);
+
 $(".descarga").click(function(){
-	alert("DISPONIBLE PRÓXIMAMENTE EN ANDROID Y IOS");
+    alert("DISPONIBLE PRÓXIMAMENTE EN ANDROID Y IOS");
 });
-function main () {
+
+function carga (){
+    if( isMobile.any() ){
+        $("nav").css("display", "none");
+        $(".icon-menu").click(function(){
+            $("nav").css("display","block");
+        });
+    }
+
     var contador = 1;
-	$(".menu_bar").click(function(){
-		if (contador == 1) {
-			$("nav").animate({
-				top: "-100%"
-			});
-			contador = 0;
-		} else {
-			contador = 1;
-			$("nav").animate({
-				top: "0%"
-			});
-		}
-	});
-        
     var cont_margin = 1;
 
     $(".icon-menu").click(function(){
         if (cont_margin == 1) {
             $(".content").animate({
-                top : "0"
+                top : "15rem"
             });
             cont_margin = 0;
         } else {
             cont_margin = 1;
             $(".content").animate({
-                top : "15rem"
+                top : "0"
             });
         }
     });
+    
+    $(".menu_bar").click(function(){
+        if (contador == 1) {
+            $("nav").animate({
+                top: "0%"
+            });
+            contador = 0;
+        } else {
+            contador = 1;
+            $("nav").animate({
+                top: "-100%"
+            });
+        }
+    });
+};
 
-	$(window).scroll(function(){
-	    var window_y = $(window).scrollTop();
-	    var scroll_critical = parseInt($("#header-menu").height());
+$(document).ready(main);
+
+
+function main () {
+
+    $(window).scroll(function(){
+        var window_y = $(window).scrollTop();
+        var scroll_critical = parseInt($("#header-menu").height());
         if( !isMobile.any() ){
             if (window_y > scroll_critical) {
                 $("#header-menu").css("background-color","#FFF");
@@ -57,9 +72,10 @@ function main () {
                 $(".logo-diet-up").css("padding-top", "0px");
             }
         }
-	})
+    })
 
     /*OCULTAR MENU AL HACER CLIK()*/
+
     $("#header-menu nav ul li a").click(function() {
         if( isMobile.any() ){
             $(".icon-menu").click();
