@@ -12,11 +12,6 @@
 		width:100%;
 		display: block;
 		padding: 20px;
-		color: gray;
-		overflow: hidden;
-		font-size: 25px;
-		font-weight: bold;
-		text-decoration: none;
 	}
 	.header-logo {
 		background: none;
