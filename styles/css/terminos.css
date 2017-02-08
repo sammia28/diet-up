@@ -157,6 +157,7 @@ a.icon-facebook:hover, a.icon-linkedin:hover{
 /* ------------RESPONSIVE ---------------*/
 
 @media screen and (max-width: 1024px) {
+    
     .content {
         position: relative;
     }
@@ -165,24 +166,11 @@ a.icon-facebook:hover, a.icon-linkedin:hover{
     }
     .menu_bar {
         display:block;
-        position: fixed;
-        top:0;
-        height: 4rem;
-        width:100%;
-        top: -6%;
-        right: 0%;
     }
     .header-logo {
-        display: none;
-    }
-    .menu_bar .bt-menu {
-        display: block;
-        padding: 20px;
-        color: gray;
-        overflow: hidden;
-        font-size: 25px;
-        font-weight: bold;
-        text-decoration: none;
+        background: none;
+        width: 70px;
+        top: 0;
     }
     .menu_bar span {
         color: #545973;
@@ -203,6 +191,8 @@ a.icon-facebook:hover, a.icon-linkedin:hover{
     header nav ul li a {
         display: block;
     }
+
+/* ---------------------SECTION --------------------*/
     section {
         margin: 0;
         margin-top: 5rem;

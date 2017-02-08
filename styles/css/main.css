@@ -86,6 +86,7 @@ header nav ul li a {
 }
 .navJS ul li:hover a{
     color:#2c77ad;
+    border-bottom: 5px solid #2c77ad;
     transition: all 0.3s linear;
 }
 
@@ -117,7 +118,7 @@ section{
 }
 .text-banner1{
 	position: absolute;
-    top: 21%;
+    top: 26%;
     left: 13%;
 }
 .text-banner1 p{
@@ -133,14 +134,15 @@ h1 {
 	font-weight: lighter;
     font-size: 1.5em;
 }
-.icon-option {
+.banner1-icon-app, .banner1-icon-android{
     position: absolute;
-    left: 13%;
-    top: 72%;
+    top: 70%;
 }
 .banner1-icon-app{
-    margin: 0.5rem;
-    width: 34%;
+    left: 7%;
+}
+.banner1-icon-android{
+    left: 13%;
 }
 .icon-down-open-big {
     background: #2c77ad;
@@ -372,26 +374,22 @@ button.text-btn-envio {
     line-height: 1.4;
     font-size: 3em;
     font-weight: lighter;
+    text-align: center;
 }
 p.banner5-text-p {
     font-size: 2em;
 }
-button.banner5-btn {
-    background: #fff;
-    border: none;
-    border-radius: 5px;
-    color: gray;
-    cursor: pointer;
-    font-size: 18px;
-    margin-top: 3rem;
-    padding: 0.8rem 4rem;
+.banner5-icon-app{
+    display: block;
     position: absolute;
-    left: 67%;
-    top: 55%;
+    top: 70%;
+    left: 68%;
 }
-button.banner5-btn:hover{
-	background: rgb(54, 188, 169);
-	color: #fff;
+.banner5-icon-android{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 75%;
 }
 
 /* --------------------FOOTER-------------------- */
