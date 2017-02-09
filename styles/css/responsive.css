@@ -472,16 +472,12 @@
 	}
 }
 @media (min-width: 1024px) and (max-width: 1366px) {
-	.text-banner1 {
-	    top: 21%;
-	    left: 6%;
-	}
 	.b2-text-h3 {
 	    left: 15%;
 	}
 	button.text-btn-envio {
 	    top: 86%;
-	    left: 42%;
+	    left: 45.5%;
 	}
 	.icon-zanahoria {
 	    top: -6%;

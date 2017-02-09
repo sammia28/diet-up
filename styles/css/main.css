@@ -135,14 +135,15 @@ h1 {
     font-size: 1.5em;
 }
 .banner1-icon-app, .banner1-icon-android{
+    cursor: pointer;
     position: absolute;
     top: 70%;
 }
 .banner1-icon-app{
-    left: 7%;
+    left: 13%;
 }
 .banner1-icon-android{
-    left: 13%;
+    left: 19%;
 }
 .icon-down-open-big {
     background: #2c77ad;
@@ -379,16 +380,16 @@ button.text-btn-envio {
 p.banner5-text-p {
     font-size: 2em;
 }
-.banner5-icon-app{
+.banner5-icon-app, .banner5-icon-android{
     display: block;
     position: absolute;
+    cursor: pointer;
     top: 70%;
+}
+.banner5-icon-app{
     left: 68%;
 }
 .banner5-icon-android{
-    display: block;
-    position: absolute;
-    top: 70%;
     left: 75%;
 }
 
