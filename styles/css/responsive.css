@@ -4,6 +4,7 @@
 	}
 	header{
 		background-color: #fff;
+		z-index: 3 !important;
 	}
 	.menu_bar {
 		position: fixed;

@@ -8,42 +8,32 @@ function cargar (){
     $(".descarga").click(function(){
         alert("DISPONIBLE PRÓXIMAMENTE EN ANDROID Y IOS");
     });
-
-    if( isMobile.any() ){
-        $(".text-funciona, .text-diet, .text-contacto").click(function(){
-            $(".content").animate({
-                top :"15rem"
-            });
-        });
+    /*if( isMobile.any() ){
         $(".text-funciona").click(function(){
-            $(".content").animate({
-                top :"19rem"
-            });
+            $(window).scrollTop(200);
         });
-    };
-
+    }*/
+/*
     if( isMobile.any() ){
         $("nav").css("display", "none");
+
         $(".icon-menu").click(function(){
             $("nav").css("display","block");
         });
+
         $(".icon-menu").click(function(){
             if (cont_margin == 1) {
-
-                $(".content").animate({
-                    top : "15rem"
-                });
+                $("window").scrollTop(200);
                 cont_margin = 0;
             } else {
                 cont_margin = 1;
-                $(".content").animate({
-                    top : "0"
-                });
+                $("window").scrollTop(0);
             }
         });
-    }
+    }*/
 
     $(".menu_bar").click(function(){
+
         if (contador == 1) {
             $("nav").animate({
                 top: "0%"
