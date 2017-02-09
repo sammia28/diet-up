@@ -106,6 +106,12 @@ header nav ul li a {
 .banner1-img{
     width: 100%;
 }
+.banner1-mobile-img{
+    display: none;
+}
+.banner1-tablet-img{
+    display: none;
+}
 .banner1-text {
     position: absolute;
     left: 60%;
