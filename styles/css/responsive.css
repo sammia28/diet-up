@@ -191,6 +191,7 @@
 		position: relative;
 		margin: 1rem;
 		left: 0;
+		top: 5%;
 	}
 	h2.form-h2 {
 		font-size: 1.5em;
@@ -210,7 +211,7 @@
 		position: relative;
 	    margin: 0 3rem;
 	    left: 0%;
-	    top: 21%;
+	    top: 10%;
 	}
 	.datos, .email-enterprise, .form-textarea {
 		margin: 0;
@@ -220,12 +221,19 @@
 		width: 100%;
 		margin: 1rem 0;
 	}
+	.button_send{
+		margin: auto;
+		text-align: center;
+		padding-top: 10px;
+	}
 	button.text-btn-envio {
 		margin: 0rem;
 		padding: 0.5rem 5.8rem;
 		font-size: 0.8em;
-		top: 96%;
-	    left: 15%;
+		top: 0%;
+		position: relative;
+	    left: inherit;
+		float: inherit;
 	}
 
 	/* -------------------BANNER 5--------------------- */
@@ -308,9 +316,9 @@
 		display: none;
 	}
 	.text-banner1 {
-		top: 25%;
+		top: 13%;
 	    text-align: center;
-	    left: 1%;
+	    left: 6%;
 	    font-size: 1.5em;
 	}
 	.icon-option {

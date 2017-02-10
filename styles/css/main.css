@@ -143,7 +143,7 @@ h1 {
     left: 13%;
 }
 .banner1-icon-android{
-    left: 19%;
+    left: 21%;
 }
 .icon-down-open-big {
     background: #2c77ad;
@@ -329,6 +329,11 @@ textarea.text-mensaje {
     margin-bottom: 2rem;
     resize: none;
     overflow: hidden;
+}
+.button_send{
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
 }
 button.text-btn-envio {
     background: #3e7cb1;

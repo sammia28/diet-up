@@ -244,6 +244,11 @@ textarea.text-mensaje {
     overflow: hidden;
 
 }
+.button_send{
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+}
 button.text-btn-envio {
     border: 2px solid #3e7cb1;
     background: #3e7cb1;
@@ -251,9 +256,8 @@ button.text-btn-envio {
     cursor: pointer;
     font-size: 18px;
     padding: 0.5rem 4rem;
-    position: absolute;
-    top: 81%;
-    left: 45%;
+    position: relative;
+    top: 86%;
 }
 /* --------------------FOOTER-------------------- */
 
