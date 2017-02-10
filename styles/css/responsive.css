@@ -5,9 +5,11 @@
 	header{
 		background-color: #fff;
 		z-index: 3 !important;
+		position: relative;
+		height: auto;
 	}
 	.menu_bar {
-		position: fixed;
+		position: relative;
 		top:0;
 		height: 4rem;
 		width:100%;
@@ -27,9 +29,9 @@
 	header nav {
 		background: rgba(57, 89, 112, 0.98);
 		text-align: left;
-		position: fixed;
+		position: relative;
 		width: 100%;
-		margin: 4rem 0;
+		margin: 0rem 0;
 	}
 	header nav ul li {
 		display: block;
@@ -56,7 +58,7 @@
 		width: 100%;
 	}
 	.text-banner1 {
-		top: 23%;
+		top: 15%;
     	left: 0%;
 		text-align: center;
 	}

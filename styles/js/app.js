@@ -1,51 +1,43 @@
 $(document).ready(cargar);
 
 var contador = 1;
-var cont_margin = 1;
+//var cont_margin = 1;
 
 function cargar (){
 
     $(".descarga").click(function(){
         alert("DISPONIBLE PRÓXIMAMENTE EN ANDROID Y IOS");
     });
+
     /*if( isMobile.any() ){
         $(".text-funciona").click(function(){
             $(window).scrollTop(200);
         });
     }*/
-/*
+
     if( isMobile.any() ){
         $("nav").css("display", "none");
 
         $(".icon-menu").click(function(){
-            $("nav").css("display","block");
-        });
-
-        $(".icon-menu").click(function(){
-            if (cont_margin == 1) {
-                $("window").scrollTop(200);
-                cont_margin = 0;
+            if (contador == 1) {
+                $("nav").css('opacity', 0)
+                        .slideDown('slow')
+                        .animate(
+                            { opacity: 1 },
+                            { queue: false, duration: 'slow' }
+                        );
+                contador = 0;
             } else {
-                cont_margin = 1;
-                $("window").scrollTop(0);
+                $("nav").css('opacity', 1)
+                    .slideUp('slow')
+                    .animate(
+                        { opacity: 0 },
+                        { queue: false, duration: 'slow' }
+                    );
+                contador = 1;
             }
         });
-    }*/
-
-    $(".menu_bar").click(function(){
-
-        if (contador == 1) {
-            $("nav").animate({
-                top: "0%"
-            });
-            contador = 0;
-        } else {
-            contador = 1;
-            $("nav").animate({
-                top: "-100%"
-            });
-        }
-    });
+    }
 };
 
 $(document).ready(main);
