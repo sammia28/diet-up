@@ -56,7 +56,9 @@ function main () {
                 $(".header-logo").css("padding-top", "0px");
                 $(".header-logo").css("top", "2px");
                 $(".logo-diet-up").css("padding-top", "5px");
-                $("#header-menu").css("border-bottom", "3px solid #999");
+                $("#header-menu").css("-webkit-box-shadow", "1px 1px 4px 0px rgba(0,0,0,0.50)");
+                $("#header-menu").css("-moz-box-shadow", "1px 1px 4px 0px rgba(0,0,0,0.50)");
+                $("#header-menu").css("box-shadow", "1px 1px 4px 0px rgba(0,0,0,0.50)");
             } else if(window_y <= scroll_critical) {
                 $("#header-menu").css("background-color","transparent");
                 $("header nav").removeClass("navJS");
@@ -65,7 +67,9 @@ function main () {
                 $(".header-logo").css("padding-top", "20px");
                 $(".header-logo").css("top", "15px");
                 $(".logo-diet-up").css("padding-top", "0px");
-                $("#header-menu").css("border-bottom", "none");
+                $("#header-menu").css("-webkit-box-shadow", "none");
+                $("#header-menu").css("-moz-box-shadow", "none");
+                $("#header-menu").css("box-shadow", "none");
             }
         }
     })

@@ -8,8 +8,11 @@
     header{
 		background-color: #fff;
 		z-index: 3 !important;
-		position: relative;
+		position: fixed;
 		height: auto;
+		-webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+		-moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+		box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
     }
     .menu_bar {
 		position: relative;

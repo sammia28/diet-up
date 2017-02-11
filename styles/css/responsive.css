@@ -5,8 +5,11 @@
 	header{
 		background-color: #fff;
 		z-index: 3 !important;
-		position: relative;
+		position: fixed;
 		height: auto;
+		-webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+		-moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
+		box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.50);
 	}
 	.menu_bar {
 		position: relative;
@@ -25,20 +28,23 @@
 		color: #545973;
 		float: right;
 		font-size: 1.3em;
+		cursor: pointer;
 	}
 	header nav {
-		background: rgba(57, 89, 112, 0.98);
+		background-color: rgba(57, 89, 112, 0.9);
 		text-align: left;
-		position: relative;
+		position: absolute;
 		width: 100%;
 		margin: 0rem 0;
 	}
 	header nav ul li {
 		display: block;
 		border-bottom:1px solid rgba(255,255,255,.5);
+		cursor: pointer;
 	}
 	header nav ul li a {
 		display: block;
+		cursor: pointer;
 	}
 }
 
