@@ -35,7 +35,7 @@
     header nav {
 		background: rgba(57, 89, 112, 0.98);
 		text-align: left;
-		position: relative;
+		position: absolute;
 		width: 100%;
 		margin: 0rem 0;
     }
