@@ -344,7 +344,7 @@ button.text-btn-envio {
     font-size: 18px;
     /*float: right;*/
     padding: 0.5rem 4rem;
-    position: relative;
+    /*position: relative;*/
     top: 81%;
     left: 45.5%;
 }
