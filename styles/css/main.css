@@ -333,7 +333,8 @@ textarea.text-mensaje {
 .button_send{
     margin: auto;
     text-align: center;
-    padding-top: 15px;
+    position: relative;
+    /*padding-top: 15px;*/
 }
 button.text-btn-envio {
     background: #3e7cb1;
