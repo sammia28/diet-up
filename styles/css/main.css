@@ -342,9 +342,9 @@ button.text-btn-envio {
     color: #fff;
     cursor: pointer;
     font-size: 18px;
-    float: right;
+    /*float: right;*/
     padding: 0.5rem 4rem;
-    position: absolute;
+    position: relative;
     top: 81%;
     left: 45.5%;
 }
