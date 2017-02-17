@@ -9,11 +9,48 @@
 		<link rel="stylesheet" href="styles/css/main.css">
 		<link rel="stylesheet" href="styles/css/responsive.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<style>
+			#frm_contact input[type=text].error,
+			#frm_contact input[type=email].error,
+			#frm_contact area.error{
+				border-color: red;
+			}
+			#frm_contact label.error{
+				display: none !important;
+			}
+			#frm_contact input[type=text]:focus,
+			#frm_contact input[type=text]:active,
+			#frm_contact input[type=email]:focus,
+			#frm_contact input[type=email]:active,
+			#frm_contact area:focus,
+			#frm_contact area:active{
+				outline: none !important;
+			}
+			#div_loader{
+				background-image: url(styles/img/loading.gif);
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				width: 40px;
+				height: 40px;
+				display: none;
+				margin: auto;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			#div_message{
+				color: #3e7cb1;
+				margin: auto;
+				text-align: center;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+		</style>
 	</head>
 	<body>
 		<header id="header-menu">
 			<div class="header-logo">
-				<a href="index.html" style="outline: none !important;"><img src="styles/img/logo.png" class="logo-diet-up"></a>
+				<a href="index.html#home-top" style="outline: none !important;"><img src="styles/img/logo.png" class="logo-diet-up"></a>
 			</div>
 			<div class="menu_bar">
 				<span class="icon-menu"></span>
@@ -28,7 +65,7 @@
 			</nav>
 		</header>
 		<main class="content">
-			<section class="banner1">
+			<section class="banner1" id="home-top">
 				<img src="styles/img/banner1.png" class="banner1-img">
 				<img src="styles/img/tablet1.png" class="tablet1">
 				<img src="styles/img/section1-mobile.png" class="banner1-img-mobile">
@@ -74,20 +111,23 @@
 					<h2 class="form-h2">ESTEMOS EN CONTACTO</h2>
 					<p class="form-p">¿Tienes alguna duda? Escríbenos para comunicarnos contigo</p>
 				</div>
-					<form action="" class="form-text">
+					<form id="frm_contact" class="form-text" action="#" method="post" autocomplete="off">
 						<div class="datos">
-							<input type="text" placeholder="Nombre" class="form-name">
-							<input type="text" placeholder="Apellido" class="form-last-name">
+							<input type="text" name="nombre" placeholder="Nombre" class="form-name" required="true">
+							<input type="text" name="apellido" placeholder="Apellido" class="form-last-name" required="true">
 						</div>
 						<div class="email-enterprise">
-							<input type="email" placeholder="Correo" class="form-email">
-							<input type="text" placeholder="Empresa" class="form-enterprise">
+							<input type="email" name="correo" placeholder="Correo" class="form-email" required="true" >
+							<input type="text" name="empresa" placeholder="Empresa" class="form-enterprise" required="true">
 						</div>
 						<div class="form-textarea">
-							<textarea name="" id="" cols="96" rows="7" placeholder="Tu mensaje" class="text-mensaje"></textarea>
+							<textarea name="mensaje" id="" cols="96" rows="7" placeholder="Tu mensaje" class="text-mensaje" required="true"></textarea>
 						</div>
-
+						<input type="hidden" name="from_data" value="contact">
 						<div class="button_send"><button type="submit" class="text-btn-envio">Enviar</button></div>
+
+						<div id="div_loader"></div>
+						<div id="div_message"></div>
 					</form>
 
 			</section>
@@ -114,6 +154,7 @@
 			</footer>
 		</main>
 		<script src="styles/js/jquery.js"></script>
+		<script src="styles/js/jquery.validate.min.js"></script>
 		<script src="styles/js/app.js"></script>
 	</body>
 </html>

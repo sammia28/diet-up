@@ -83,6 +83,33 @@ function main () {
         }
     });
 
+    /**** FORM CONTACT ****/
+    $("#frm_contact").validate({
+        rules: {
+        },
+        messages: {
+        },
+        errorElement: "label",
+        submitHandler: function(form) {
+            $.ajax({
+                type: 'POST',
+                url: "lib/enviar.php",
+                data: $('#frm_contact').serialize(),
+                beforeSend:function(){
+                    $("#div_loader").show();
+                    $("#frm_contact button").attr("disabled", "disabled")
+                },
+                success: function(msg){
+                    $("#div_loader").hide();
+                    $("#div_message").html(msg);
+                    $("#frm_contact button").removeAttr("disabled")
+                    //$('#frm_contact').reset();
+                }
+            });
+        }
+    });
+    /**********************/
+
 }
 
 var isMobile = {

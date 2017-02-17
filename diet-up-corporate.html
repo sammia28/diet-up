@@ -9,6 +9,43 @@
 		<link rel="stylesheet" href="styles/css/diet-up.css">
 		<link rel="stylesheet" href="styles/css/responsive-diet-up.css">
 		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+		<style>
+			#frm_contact input[type=text].error,
+			#frm_contact input[type=email].error,
+			#frm_contact area.error{
+				border-color: red;
+			}
+			#frm_contact label.error{
+				display: none !important;
+			}
+			#frm_contact input[type=text]:focus,
+			#frm_contact input[type=text]:active,
+			#frm_contact input[type=email]:focus,
+			#frm_contact input[type=email]:active,
+			#frm_contact area:focus,
+			#frm_contact area:active{
+				outline: none !important;
+			}
+			#div_loader{
+				background-image: url(styles/img/loading.gif);
+				background-position: center center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				width: 40px;
+				height: 40px;
+				display: none;
+				margin: auto;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+			#div_message{
+				color: #3e7cb1;
+				margin: auto;
+				text-align: center;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+		</style>
 	</head>
 	<body>
 		<header id="header-menu">
@@ -60,21 +97,24 @@
 					<h2 class="form-h2">¿ALGUNA DUDA?</h2>
 					<p class="form-p">No dudes en contactarnos si quieres saber más sobre nuestro plan corporativo</p>
 				</div>
-					<form class="form-text">
-						<div class="datos">
-							<input type="text" placeholder="Nombre" class="form-name" required>
-							<input type="text" placeholder="Apellido" class="form-last-name" required>
-						</div>
-						<div class="email-enterprise">
-							<input type="email" placeholder="Correo" class="form-email" required>
-							<input type="text" placeholder="Empresa" class="form-enterprise" required>
-						</div>
-						<div class="form-textarea">
-							<textarea cols="96" rows="7" placeholder="Tu mensaje" class="text-mensaje" required></textarea>
-						</div>
+				<form id="frm_contact" class="form-text" action="#" method="post" autocomplete="off">
+					<div class="datos">
+						<input type="text" name="nombre" placeholder="Nombre" class="form-name" required="true">
+						<input type="text" name="apellido" placeholder="Apellido" class="form-last-name" required="true">
+					</div>
+					<div class="email-enterprise">
+						<input type="email" name="correo" placeholder="Correo" class="form-email" required="true" >
+						<input type="text" name="empresa" placeholder="Empresa" class="form-enterprise" required="true">
+					</div>
+					<div class="form-textarea">
+						<textarea name="mensaje" id="" cols="96" rows="7" placeholder="Tu mensaje" class="text-mensaje" required="true"></textarea>
+					</div>
+					<input type="hidden" name="from_data" value="contact">
+					<div class="button_send"><button type="submit" class="text-btn-envio">Enviar</button></div>
 
-						<div class="button_send"><button type="submit" class="text-btn-envio">Enviar</button></div>
-					</form>
+					<div id="div_loader"></div>
+					<div id="div_message"></div>
+				</form>
 			</section>
 			<footer>
 				<a href="terminos-y-condiciones.html" class="footer-text"><span>Términos y condiciones</span></a>
@@ -85,6 +125,7 @@
 			</footer>
 		</main>
 		<script src="styles/js/jquery.js"></script>
+		<script src="styles/js/jquery.validate.min.js"></script>
 		<script src="styles/js/app.js"></script>
 	</body>
 </html>	
